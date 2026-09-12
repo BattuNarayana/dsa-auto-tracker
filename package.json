@@ -1,0 +1,28 @@
+{
+  "name": "dsa-auto-tracker",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Chrome extension that auto-marks DSA sheet problems as Done when solved on the linked coding platform.",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/build.mjs --watch",
+    "build": "tsc --noEmit && node scripts/build.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx scripts/smoke-test.ts",
+    "zip": "node scripts/zip-dist.mjs"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.270",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "tsx": "^4.23.13",
+    "typescript": "^5.5.4",
+    "vite": "^5.4.0",
+    "vite-plugin-static-copy": "^1.0.6"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}

@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color: #1a1a1a;
+  background: #ffffff;
+}
+
+.popup {
+  padding: 16px;
+}
+
+.popup__header {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0 0 12px 0;
+}
+
+.status-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 10px;
+  border-radius: 8px;
+  background: #f4f4f5;
+  margin-bottom: 14px;
+}
+
+.status-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.status-dot--on {
+  background: #22c55e;
+}
+
+.status-dot--off {
+  background: #a1a1aa;
+}
+
+.status-row__label {
+  flex: 1;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.toggle {
+  position: relative;
+  width: 34px;
+  height: 20px;
+  border-radius: 999px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+
+.toggle--on {
+  background: #22c55e;
+}
+
+.toggle--off {
+  background: #d4d4d8;
+}
+
+.toggle__knob {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: white;
+  transition: transform 0.15s ease;
+}
+
+.toggle--on .toggle__knob {
+  transform: translateX(14px);
+}
+
+.section {
+  margin-bottom: 14px;
+}
+
+.section__title {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #71717a;
+  margin: 0 0 6px 0;
+}
+
+.support-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 0;
+  font-size: 13px;
+}
+
+.check {
+  color: #22c55e;
+  font-weight: 700;
+}
+
+.activity-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-height: 160px;
+  overflow-y: auto;
+}
+
+.activity-item {
+  display: flex;
+  gap: 6px;
+  font-size: 13px;
+  align-items: flex-start;
+}
+
+.activity-item__check {
+  color: #22c55e;
+  flex-shrink: 0;
+}
+
+.empty-state {
+  font-size: 12px;
+  color: #a1a1aa;
+  padding: 6px 0;
+}

@@ -1,0 +1,285 @@
+{
+  "sheet": "striver",
+  "problems": [
+    {
+      "sheetProblemId": "striver-set-matrix-zeroes",
+      "title": "Set Matrix Zeroes",
+      "platform": "leetcode",
+      "platformProblemId": "73",
+      "platformSlug": "set-matrix-zeroes",
+      "platformUrl": "https://leetcode.com/problems/set-matrix-zeroes/"
+    },
+    {
+      "sheetProblemId": "striver-pascals-triangle",
+      "title": "Pascal's Triangle",
+      "platform": "leetcode",
+      "platformProblemId": "118",
+      "platformSlug": "pascals-triangle",
+      "platformUrl": "https://leetcode.com/problems/pascals-triangle/"
+    },
+    {
+      "sheetProblemId": "striver-next-permutation",
+      "title": "Next Permutation",
+      "platform": "leetcode",
+      "platformProblemId": "31",
+      "platformSlug": "next-permutation",
+      "platformUrl": "https://leetcode.com/problems/next-permutation/"
+    },
+    {
+      "sheetProblemId": "striver-kadanes-algorithm",
+      "title": "Maximum Subarray",
+      "platform": "leetcode",
+      "platformProblemId": "53",
+      "platformSlug": "maximum-subarray",
+      "platformUrl": "https://leetcode.com/problems/maximum-subarray/"
+    },
+    {
+      "sheetProblemId": "striver-sort-colors",
+      "title": "Sort Colors",
+      "platform": "leetcode",
+      "platformProblemId": "75",
+      "platformSlug": "sort-colors",
+      "platformUrl": "https://leetcode.com/problems/sort-colors/"
+    },
+    {
+      "sheetProblemId": "striver-best-time-buy-sell-stock",
+      "title": "Best Time to Buy and Sell Stock",
+      "platform": "leetcode",
+      "platformProblemId": "121",
+      "platformSlug": "best-time-to-buy-and-sell-stock",
+      "platformUrl": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/"
+    },
+    {
+      "sheetProblemId": "striver-rotate-image",
+      "title": "Rotate Image",
+      "platform": "leetcode",
+      "platformProblemId": "48",
+      "platformSlug": "rotate-image",
+      "platformUrl": "https://leetcode.com/problems/rotate-image/"
+    },
+    {
+      "sheetProblemId": "striver-merge-intervals",
+      "title": "Merge Intervals",
+      "platform": "leetcode",
+      "platformProblemId": "56",
+      "platformSlug": "merge-intervals",
+      "platformUrl": "https://leetcode.com/problems/merge-intervals/"
+    },
+    {
+      "sheetProblemId": "striver-merge-sorted-array",
+      "title": "Merge Sorted Array",
+      "platform": "leetcode",
+      "platformProblemId": "88",
+      "platformSlug": "merge-sorted-array",
+      "platformUrl": "https://leetcode.com/problems/merge-sorted-array/"
+    },
+    {
+      "sheetProblemId": "striver-find-duplicate-number",
+      "title": "Find the Duplicate Number",
+      "platform": "leetcode",
+      "platformProblemId": "287",
+      "platformSlug": "find-the-duplicate-number",
+      "platformUrl": "https://leetcode.com/problems/find-the-duplicate-number/"
+    },
+    {
+      "sheetProblemId": "striver-two-sum",
+      "title": "Two Sum",
+      "platform": "leetcode",
+      "platformProblemId": "1",
+      "platformSlug": "two-sum",
+      "platformUrl": "https://leetcode.com/problems/two-sum/"
+    },
+    {
+      "sheetProblemId": "striver-3sum",
+      "title": "3Sum",
+      "platform": "leetcode",
+      "platformProblemId": "15",
+      "platformSlug": "3sum",
+      "platformUrl": "https://leetcode.com/problems/3sum/"
+    },
+    {
+      "sheetProblemId": "striver-4sum",
+      "title": "4Sum",
+      "platform": "leetcode",
+      "platformProblemId": "18",
+      "platformSlug": "4sum",
+      "platformUrl": "https://leetcode.com/problems/4sum/"
+    },
+    {
+      "sheetProblemId": "striver-longest-consecutive-sequence",
+      "title": "Longest Consecutive Sequence",
+      "platform": "leetcode",
+      "platformProblemId": "128",
+      "platformSlug": "longest-consecutive-sequence",
+      "platformUrl": "https://leetcode.com/problems/longest-consecutive-sequence/"
+    },
+    {
+      "sheetProblemId": "striver-container-with-most-water",
+      "title": "Container With Most Water",
+      "platform": "leetcode",
+      "platformProblemId": "11",
+      "platformSlug": "container-with-most-water",
+      "platformUrl": "https://leetcode.com/problems/container-with-most-water/"
+    },
+    {
+      "sheetProblemId": "striver-trapping-rain-water",
+      "title": "Trapping Rain Water",
+      "platform": "leetcode",
+      "platformProblemId": "42",
+      "platformSlug": "trapping-rain-water",
+      "platformUrl": "https://leetcode.com/problems/trapping-rain-water/"
+    },
+    {
+      "sheetProblemId": "striver-valid-parentheses",
+      "title": "Valid Parentheses",
+      "platform": "leetcode",
+      "platformProblemId": "20",
+      "platformSlug": "valid-parentheses",
+      "platformUrl": "https://leetcode.com/problems/valid-parentheses/"
+    },
+    {
+      "sheetProblemId": "striver-reverse-linked-list",
+      "title": "Reverse Linked List",
+      "platform": "leetcode",
+      "platformProblemId": "206",
+      "platformSlug": "reverse-linked-list",
+      "platformUrl": "https://leetcode.com/problems/reverse-linked-list/"
+    },
+    {
+      "sheetProblemId": "striver-middle-of-linked-list",
+      "title": "Middle of the Linked List",
+      "platform": "leetcode",
+      "platformProblemId": "876",
+      "platformSlug": "middle-of-the-linked-list",
+      "platformUrl": "https://leetcode.com/problems/middle-of-the-linked-list/"
+    },
+    {
+      "sheetProblemId": "striver-linked-list-cycle",
+      "title": "Linked List Cycle",
+      "platform": "leetcode",
+      "platformProblemId": "141",
+      "platformSlug": "linked-list-cycle",
+      "platformUrl": "https://leetcode.com/problems/linked-list-cycle/"
+    },
+    {
+      "sheetProblemId": "striver-merge-two-sorted-lists",
+      "title": "Merge Two Sorted Lists",
+      "platform": "leetcode",
+      "platformProblemId": "21",
+      "platformSlug": "merge-two-sorted-lists",
+      "platformUrl": "https://leetcode.com/problems/merge-two-sorted-lists/"
+    },
+    {
+      "sheetProblemId": "striver-remove-nth-node-from-end",
+      "title": "Remove Nth Node From End of List",
+      "platform": "leetcode",
+      "platformProblemId": "19",
+      "platformSlug": "remove-nth-node-from-end-of-list",
+      "platformUrl": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/"
+    },
+    {
+      "sheetProblemId": "striver-add-two-numbers",
+      "title": "Add Two Numbers",
+      "platform": "leetcode",
+      "platformProblemId": "2",
+      "platformSlug": "add-two-numbers",
+      "platformUrl": "https://leetcode.com/problems/add-two-numbers/"
+    },
+    {
+      "sheetProblemId": "striver-binary-search",
+      "title": "Binary Search",
+      "platform": "leetcode",
+      "platformProblemId": "704",
+      "platformSlug": "binary-search",
+      "platformUrl": "https://leetcode.com/problems/binary-search/"
+    },
+    {
+      "sheetProblemId": "striver-search-in-rotated-sorted-array",
+      "title": "Search in Rotated Sorted Array",
+      "platform": "leetcode",
+      "platformProblemId": "33",
+      "platformSlug": "search-in-rotated-sorted-array",
+      "platformUrl": "https://leetcode.com/problems/search-in-rotated-sorted-array/"
+    },
+    {
+      "sheetProblemId": "striver-koko-eating-bananas",
+      "title": "Koko Eating Bananas",
+      "platform": "leetcode",
+      "platformProblemId": "875",
+      "platformSlug": "koko-eating-bananas",
+      "platformUrl": "https://leetcode.com/problems/koko-eating-bananas/"
+    },
+    {
+      "sheetProblemId": "striver-median-of-two-sorted-arrays",
+      "title": "Median of Two Sorted Arrays",
+      "platform": "leetcode",
+      "platformProblemId": "4",
+      "platformSlug": "median-of-two-sorted-arrays",
+      "platformUrl": "https://leetcode.com/problems/median-of-two-sorted-arrays/"
+    },
+    {
+      "sheetProblemId": "striver-word-search",
+      "title": "Word Search",
+      "platform": "leetcode",
+      "platformProblemId": "79",
+      "platformSlug": "word-search",
+      "platformUrl": "https://leetcode.com/problems/word-search/"
+    },
+    {
+      "sheetProblemId": "striver-number-of-islands",
+      "title": "Number of Islands",
+      "platform": "leetcode",
+      "platformProblemId": "200",
+      "platformSlug": "number-of-islands",
+      "platformUrl": "https://leetcode.com/problems/number-of-islands/"
+    },
+    {
+      "sheetProblemId": "striver-course-schedule",
+      "title": "Course Schedule",
+      "platform": "leetcode",
+      "platformProblemId": "207",
+      "platformSlug": "course-schedule",
+      "platformUrl": "https://leetcode.com/problems/course-schedule/"
+    },
+    {
+      "sheetProblemId": "striver-climbing-stairs",
+      "title": "Climbing Stairs",
+      "platform": "leetcode",
+      "platformProblemId": "70",
+      "platformSlug": "climbing-stairs",
+      "platformUrl": "https://leetcode.com/problems/climbing-stairs/"
+    },
+    {
+      "sheetProblemId": "striver-house-robber",
+      "title": "House Robber",
+      "platform": "leetcode",
+      "platformProblemId": "198",
+      "platformSlug": "house-robber",
+      "platformUrl": "https://leetcode.com/problems/house-robber/"
+    },
+    {
+      "sheetProblemId": "striver-longest-increasing-subsequence",
+      "title": "Longest Increasing Subsequence",
+      "platform": "leetcode",
+      "platformProblemId": "300",
+      "platformSlug": "longest-increasing-subsequence",
+      "platformUrl": "https://leetcode.com/problems/longest-increasing-subsequence/"
+    },
+    {
+      "sheetProblemId": "striver-word-break",
+      "title": "Word Break",
+      "platform": "leetcode",
+      "platformProblemId": "139",
+      "platformSlug": "word-break",
+      "platformUrl": "https://leetcode.com/problems/word-break/"
+    },
+    {
+      "sheetProblemId": "striver-lru-cache",
+      "title": "LRU Cache",
+      "platform": "leetcode",
+      "platformProblemId": "146",
+      "platformSlug": "lru-cache",
+      "platformUrl": "https://leetcode.com/problems/lru-cache/"
+    }
+  ]
+}
