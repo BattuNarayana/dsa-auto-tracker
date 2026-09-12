@@ -20,7 +20,7 @@
     "service_worker": "service-worker.js",
     "type": "module"
   },
-  "permissions": ["storage"],
+  "permissions": ["storage", "scripting"],
   "host_permissions": ["https://leetcode.com/*", "https://takeuforward.org/*"],
   "content_scripts": [
     {

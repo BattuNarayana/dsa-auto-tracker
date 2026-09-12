@@ -30,9 +30,9 @@ Solving something outside that scope is deliberately ignored.
 ## Architecture
 
 ```
-┌────────────────────────┐        ┌──────────────────────────┐
-│   Striver content       │        │   LeetCode content        │
-│   script (striver-      │        │   script (leetcode-       │
+┌──────────────────────────┐        ┌────────────────────────────┐
+│   Striver content        │        │   LeetCode content         │
+│   script (striver-       │        │   script (leetcode-        │
 │   adapter.ts)            │        │   adapter.ts)              │
 │                          │        │                            │
 │  isSupportedPage()       │        │  isSupportedPage()         │
@@ -41,12 +41,12 @@ Solving something outside that scope is deliberately ignored.
 │  markCompleted()         │        │  (MutationObserver on the  │
 │                          │        │   submission verdict node) │
 └───────────▲──────────────┘        └─────────────┬──────────────┘
-            │  chrome.tabs.sendMessage             │  chrome.runtime.sendMessage
-            │  (PROBLEM_MARKED_ON_SHEET)            │  (SUBMISSION_ACCEPTED)
-            │                                       ▼
-            │                        ┌──────────────────────────────┐
-            └────────────────────────┤   Service worker              │
-                                      │   (background/service-worker) │
+            │  chrome.tabs.sendMessage            │  chrome.runtime.sendMessage
+            │  (PROBLEM_MARKED_ON_SHEET)          │  (SUBMISSION_ACCEPTED)
+            │                                     ▼
+            │                         ┌────────────────────────────────┐
+            └─────────────────────────┤   Service worker               │
+                                      │   (background/service-worker)  │
                                       │                                │
                                       │   core/sync-engine.ts:         │
                                       │     lookup mapping             │
@@ -56,7 +56,7 @@ Solving something outside that scope is deliberately ignored.
                                       │   core/problem-mapper.ts       │
                                       │   storage/storage-service.ts   │
                                       └───────────────┬────────────────┘
-                                                       │ chrome.storage.local
+                                                      │ chrome.storage.  local
                                                        ▼
                                       settings · completion state (history)
 ```

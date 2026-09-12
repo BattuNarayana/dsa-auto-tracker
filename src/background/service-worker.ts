@@ -15,7 +15,7 @@ chrome.runtime.onInstalled.addListener(async () => {
   await storageService.saveSettings(settings); // ensures defaults are persisted on first install
   setDebugLogging(settings.debugLogging);
   logger.info("Installed. Settings initialized:", settings);
-  await reinjectStriverContentScript();
+  
 });
 
 // Keep the in-memory debug flag in sync if settings change from the popup.
@@ -82,26 +82,3 @@ async function handleMessage(
   }
 }
 
-async function reinjectStriverContentScript(): Promise<void> {
-  const tabs = await chrome.tabs.query({
-    url: "https://takeuforward.org/*",
-  });
-
-  for (const tab of tabs) {
-    if (tab.id === undefined) continue;
-
-    try {
-      await chrome.scripting.executeScript({
-        target: { tabId: tab.id },
-        files: ["content-striver.js"],
-      });
-
-      logger.info(`Re-injected Striver content script into tab ${tab.id}`);
-    } catch (err) {
-      logger.error(
-        `Could not re-inject Striver content script into tab ${tab.id}`,
-        err
-      );
-    }
-  }
-}
