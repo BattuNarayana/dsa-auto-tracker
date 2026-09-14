@@ -2,284 +2,1741 @@
   "sheet": "striver",
   "problems": [
     {
-      "sheetProblemId": "striver-set-matrix-zeroes",
-      "title": "Set Matrix Zeroes",
+      "sheetProblemId": "striver-01-matrix",
+      "title": "01 Matrix",
       "platform": "leetcode",
-      "platformProblemId": "73",
-      "platformSlug": "set-matrix-zeroes",
-      "platformUrl": "https://leetcode.com/problems/set-matrix-zeroes/"
-    },
-    {
-      "sheetProblemId": "striver-pascals-triangle",
-      "title": "Pascal's Triangle",
-      "platform": "leetcode",
-      "platformProblemId": "118",
-      "platformSlug": "pascals-triangle",
-      "platformUrl": "https://leetcode.com/problems/pascals-triangle/"
-    },
-    {
-      "sheetProblemId": "striver-next-permutation",
-      "title": "Next Permutation",
-      "platform": "leetcode",
-      "platformProblemId": "31",
-      "platformSlug": "next-permutation",
-      "platformUrl": "https://leetcode.com/problems/next-permutation/"
-    },
-    {
-      "sheetProblemId": "striver-kadanes-algorithm",
-      "title": "Maximum Subarray",
-      "platform": "leetcode",
-      "platformProblemId": "53",
-      "platformSlug": "maximum-subarray",
-      "platformUrl": "https://leetcode.com/problems/maximum-subarray/"
-    },
-    {
-      "sheetProblemId": "striver-sort-colors",
-      "title": "Sort Colors",
-      "platform": "leetcode",
-      "platformProblemId": "75",
-      "platformSlug": "sort-colors",
-      "platformUrl": "https://leetcode.com/problems/sort-colors/"
-    },
-    {
-      "sheetProblemId": "striver-best-time-buy-sell-stock",
-      "title": "Best Time to Buy and Sell Stock",
-      "platform": "leetcode",
-      "platformProblemId": "121",
-      "platformSlug": "best-time-to-buy-and-sell-stock",
-      "platformUrl": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/"
-    },
-    {
-      "sheetProblemId": "striver-rotate-image",
-      "title": "Rotate Image",
-      "platform": "leetcode",
-      "platformProblemId": "48",
-      "platformSlug": "rotate-image",
-      "platformUrl": "https://leetcode.com/problems/rotate-image/"
-    },
-    {
-      "sheetProblemId": "striver-merge-intervals",
-      "title": "Merge Intervals",
-      "platform": "leetcode",
-      "platformProblemId": "56",
-      "platformSlug": "merge-intervals",
-      "platformUrl": "https://leetcode.com/problems/merge-intervals/"
-    },
-    {
-      "sheetProblemId": "striver-merge-sorted-array",
-      "title": "Merge Sorted Array",
-      "platform": "leetcode",
-      "platformProblemId": "88",
-      "platformSlug": "merge-sorted-array",
-      "platformUrl": "https://leetcode.com/problems/merge-sorted-array/"
-    },
-    {
-      "sheetProblemId": "striver-find-duplicate-number",
-      "title": "Find the Duplicate Number",
-      "platform": "leetcode",
-      "platformProblemId": "287",
-      "platformSlug": "find-the-duplicate-number",
-      "platformUrl": "https://leetcode.com/problems/find-the-duplicate-number/"
-    },
-    {
-      "sheetProblemId": "striver-two-sum",
-      "title": "Two Sum",
-      "platform": "leetcode",
-      "platformProblemId": "1",
-      "platformSlug": "two-sum",
-      "platformUrl": "https://leetcode.com/problems/two-sum/"
+      "platformSlug": "01-matrix",
+      "platformUrl": "https://leetcode.com/problems/01-matrix/"
     },
     {
       "sheetProblemId": "striver-3sum",
       "title": "3Sum",
       "platform": "leetcode",
-      "platformProblemId": "15",
       "platformSlug": "3sum",
-      "platformUrl": "https://leetcode.com/problems/3sum/"
+      "platformUrl": "https://leetcode.com/problems/3sum/",
+      "platformProblemId": "15"
     },
     {
       "sheetProblemId": "striver-4sum",
       "title": "4Sum",
       "platform": "leetcode",
-      "platformProblemId": "18",
       "platformSlug": "4sum",
-      "platformUrl": "https://leetcode.com/problems/4sum/"
+      "platformUrl": "https://leetcode.com/problems/4sum/",
+      "platformProblemId": "18"
     },
     {
-      "sheetProblemId": "striver-longest-consecutive-sequence",
-      "title": "Longest Consecutive Sequence",
+      "sheetProblemId": "striver-accounts-merge",
+      "title": "Accounts Merge",
       "platform": "leetcode",
-      "platformProblemId": "128",
-      "platformSlug": "longest-consecutive-sequence",
-      "platformUrl": "https://leetcode.com/problems/longest-consecutive-sequence/"
-    },
-    {
-      "sheetProblemId": "striver-container-with-most-water",
-      "title": "Container With Most Water",
-      "platform": "leetcode",
-      "platformProblemId": "11",
-      "platformSlug": "container-with-most-water",
-      "platformUrl": "https://leetcode.com/problems/container-with-most-water/"
-    },
-    {
-      "sheetProblemId": "striver-trapping-rain-water",
-      "title": "Trapping Rain Water",
-      "platform": "leetcode",
-      "platformProblemId": "42",
-      "platformSlug": "trapping-rain-water",
-      "platformUrl": "https://leetcode.com/problems/trapping-rain-water/"
-    },
-    {
-      "sheetProblemId": "striver-valid-parentheses",
-      "title": "Valid Parentheses",
-      "platform": "leetcode",
-      "platformProblemId": "20",
-      "platformSlug": "valid-parentheses",
-      "platformUrl": "https://leetcode.com/problems/valid-parentheses/"
-    },
-    {
-      "sheetProblemId": "striver-reverse-linked-list",
-      "title": "Reverse Linked List",
-      "platform": "leetcode",
-      "platformProblemId": "206",
-      "platformSlug": "reverse-linked-list",
-      "platformUrl": "https://leetcode.com/problems/reverse-linked-list/"
-    },
-    {
-      "sheetProblemId": "striver-middle-of-linked-list",
-      "title": "Middle of the Linked List",
-      "platform": "leetcode",
-      "platformProblemId": "876",
-      "platformSlug": "middle-of-the-linked-list",
-      "platformUrl": "https://leetcode.com/problems/middle-of-the-linked-list/"
-    },
-    {
-      "sheetProblemId": "striver-linked-list-cycle",
-      "title": "Linked List Cycle",
-      "platform": "leetcode",
-      "platformProblemId": "141",
-      "platformSlug": "linked-list-cycle",
-      "platformUrl": "https://leetcode.com/problems/linked-list-cycle/"
-    },
-    {
-      "sheetProblemId": "striver-merge-two-sorted-lists",
-      "title": "Merge Two Sorted Lists",
-      "platform": "leetcode",
-      "platformProblemId": "21",
-      "platformSlug": "merge-two-sorted-lists",
-      "platformUrl": "https://leetcode.com/problems/merge-two-sorted-lists/"
-    },
-    {
-      "sheetProblemId": "striver-remove-nth-node-from-end",
-      "title": "Remove Nth Node From End of List",
-      "platform": "leetcode",
-      "platformProblemId": "19",
-      "platformSlug": "remove-nth-node-from-end-of-list",
-      "platformUrl": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/"
+      "platformSlug": "accounts-merge",
+      "platformUrl": "https://leetcode.com/problems/accounts-merge/"
     },
     {
       "sheetProblemId": "striver-add-two-numbers",
       "title": "Add Two Numbers",
       "platform": "leetcode",
-      "platformProblemId": "2",
       "platformSlug": "add-two-numbers",
-      "platformUrl": "https://leetcode.com/problems/add-two-numbers/"
+      "platformUrl": "https://leetcode.com/problems/add-two-numbers/",
+      "platformProblemId": "2"
+    },
+    {
+      "sheetProblemId": "striver-alien-dictionary",
+      "title": "Alien Dictionary",
+      "platform": "leetcode",
+      "platformSlug": "alien-dictionary",
+      "platformUrl": "https://leetcode.com/problems/alien-dictionary/"
+    },
+    {
+      "sheetProblemId": "striver-all-nodes",
+      "title": "All Nodes",
+      "platform": "leetcode",
+      "platformSlug": "all-nodes",
+      "platformUrl": "https://leetcode.com/problems/all-nodes/"
+    },
+    {
+      "sheetProblemId": "striver-armstrong-number",
+      "title": "Armstrong Number",
+      "platform": "leetcode",
+      "platformSlug": "armstrong-number",
+      "platformUrl": "https://leetcode.com/problems/armstrong-number/"
+    },
+    {
+      "sheetProblemId": "striver-assign-cookies",
+      "title": "Assign Cookies",
+      "platform": "leetcode",
+      "platformSlug": "assign-cookies",
+      "platformUrl": "https://leetcode.com/problems/assign-cookies/"
+    },
+    {
+      "sheetProblemId": "striver-asteroid-collision",
+      "title": "Asteroid Collision",
+      "platform": "leetcode",
+      "platformSlug": "asteroid-collision",
+      "platformUrl": "https://leetcode.com/problems/asteroid-collision/"
+    },
+    {
+      "sheetProblemId": "striver-balanced-binary-tree",
+      "title": "Balanced Binary Tree",
+      "platform": "leetcode",
+      "platformSlug": "balanced-binary-tree",
+      "platformUrl": "https://leetcode.com/problems/balanced-binary-tree/"
+    },
+    {
+      "sheetProblemId": "striver-be",
+      "title": "Be",
+      "platform": "leetcode",
+      "platformSlug": "be",
+      "platformUrl": "https://leetcode.com/problems/be/"
+    },
+    {
+      "sheetProblemId": "striver-best-time-buy-sell-stock",
+      "title": "Best Time to Buy and Sell Stock",
+      "platform": "leetcode",
+      "platformSlug": "best-time-to-buy-and-sell-stock",
+      "platformUrl": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+      "platformProblemId": "121"
+    },
+    {
+      "sheetProblemId": "striver-best-time-to-buy-and-sell-stock-iii",
+      "title": "Best Time To Buy And Sell Stock Iii",
+      "platform": "leetcode",
+      "platformSlug": "best-time-to-buy-and-sell-stock-iii",
+      "platformUrl": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/"
+    },
+    {
+      "sheetProblemId": "striver-best-time-to-buy-and-sell-stock-iv",
+      "title": "Best Time To Buy And Sell Stock Iv",
+      "platform": "leetcode",
+      "platformSlug": "best-time-to-buy-and-sell-stock-iv",
+      "platformUrl": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/"
+    },
+    {
+      "sheetProblemId": "striver-best-time-to-buy-and-sell-stock-with-cooldown",
+      "title": "Best Time To Buy And Sell Stock With Cooldown",
+      "platform": "leetcode",
+      "platformSlug": "best-time-to-buy-and-sell-stock-with-cooldown",
+      "platformUrl": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/"
+    },
+    {
+      "sheetProblemId": "striver-best-time-to-buy-and-sell-stock-with-transaction-fee",
+      "title": "Best Time To Buy And Sell Stock With Transaction Fee",
+      "platform": "leetcode",
+      "platformSlug": "best-time-to-buy-and-sell-stock-with-transaction-fee",
+      "platformUrl": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/"
     },
     {
       "sheetProblemId": "striver-binary-search",
       "title": "Binary Search",
       "platform": "leetcode",
-      "platformProblemId": "704",
       "platformSlug": "binary-search",
-      "platformUrl": "https://leetcode.com/problems/binary-search/"
+      "platformUrl": "https://leetcode.com/problems/binary-search/",
+      "platformProblemId": "704"
     },
     {
-      "sheetProblemId": "striver-search-in-rotated-sorted-array",
-      "title": "Search in Rotated Sorted Array",
+      "sheetProblemId": "striver-binary-search-tree-iterator",
+      "title": "Binary Search Tree Iterator",
       "platform": "leetcode",
-      "platformProblemId": "33",
-      "platformSlug": "search-in-rotated-sorted-array",
-      "platformUrl": "https://leetcode.com/problems/search-in-rotated-sorted-array/"
+      "platformSlug": "binary-search-tree-iterator",
+      "platformUrl": "https://leetcode.com/problems/binary-search-tree-iterator/"
     },
     {
-      "sheetProblemId": "striver-koko-eating-bananas",
-      "title": "Koko Eating Bananas",
+      "sheetProblemId": "striver-binary-subarrays-with-sum",
+      "title": "Binary Subarrays With Sum",
       "platform": "leetcode",
-      "platformProblemId": "875",
-      "platformSlug": "koko-eating-bananas",
-      "platformUrl": "https://leetcode.com/problems/koko-eating-bananas/"
+      "platformSlug": "binary-subarrays-with-sum",
+      "platformUrl": "https://leetcode.com/problems/binary-subarrays-with-sum/"
     },
     {
-      "sheetProblemId": "striver-median-of-two-sorted-arrays",
-      "title": "Median of Two Sorted Arrays",
+      "sheetProblemId": "striver-binary-tree-inorder-traversal",
+      "title": "Binary Tree Inorder Traversal",
       "platform": "leetcode",
-      "platformProblemId": "4",
-      "platformSlug": "median-of-two-sorted-arrays",
-      "platformUrl": "https://leetcode.com/problems/median-of-two-sorted-arrays/"
+      "platformSlug": "binary-tree-inorder-traversal",
+      "platformUrl": "https://leetcode.com/problems/binary-tree-inorder-traversal/"
     },
     {
-      "sheetProblemId": "striver-word-search",
-      "title": "Word Search",
+      "sheetProblemId": "striver-binary-tree-level-order-traversal",
+      "title": "Binary Tree Level Order Traversal",
       "platform": "leetcode",
-      "platformProblemId": "79",
-      "platformSlug": "word-search",
-      "platformUrl": "https://leetcode.com/problems/word-search/"
+      "platformSlug": "binary-tree-level-order-traversal",
+      "platformUrl": "https://leetcode.com/problems/binary-tree-level-order-traversal/"
     },
     {
-      "sheetProblemId": "striver-number-of-islands",
-      "title": "Number of Islands",
+      "sheetProblemId": "striver-binary-tree-maximum-path-sum",
+      "title": "Binary Tree Maximum Path Sum",
       "platform": "leetcode",
-      "platformProblemId": "200",
-      "platformSlug": "number-of-islands",
-      "platformUrl": "https://leetcode.com/problems/number-of-islands/"
+      "platformSlug": "binary-tree-maximum-path-sum",
+      "platformUrl": "https://leetcode.com/problems/binary-tree-maximum-path-sum/"
     },
     {
-      "sheetProblemId": "striver-course-schedule",
-      "title": "Course Schedule",
+      "sheetProblemId": "striver-binary-tree-postor",
+      "title": "Binary Tree Postor",
       "platform": "leetcode",
-      "platformProblemId": "207",
-      "platformSlug": "course-schedule",
-      "platformUrl": "https://leetcode.com/problems/course-schedule/"
+      "platformSlug": "binary-tree-postor",
+      "platformUrl": "https://leetcode.com/problems/binary-tree-postor/"
+    },
+    {
+      "sheetProblemId": "striver-binary-tree-postorder-traversal",
+      "title": "Binary Tree Postorder Traversal",
+      "platform": "leetcode",
+      "platformSlug": "binary-tree-postorder-traversal",
+      "platformUrl": "https://leetcode.com/problems/binary-tree-postorder-traversal/"
+    },
+    {
+      "sheetProblemId": "striver-binary-tree-preorder-traversal",
+      "title": "Binary Tree Preorder Traversal",
+      "platform": "leetcode",
+      "platformSlug": "binary-tree-preorder-traversal",
+      "platformUrl": "https://leetcode.com/problems/binary-tree-preorder-traversal/"
+    },
+    {
+      "sheetProblemId": "striver-binary-tree-right-side-view",
+      "title": "Binary Tree Right Side View",
+      "platform": "leetcode",
+      "platformSlug": "binary-tree-right-side-view",
+      "platformUrl": "https://leetcode.com/problems/binary-tree-right-side-view/"
+    },
+    {
+      "sheetProblemId": "striver-binary-tree-zigzag-level-order-traversal",
+      "title": "Binary Tree Zigzag Level Order Traversal",
+      "platform": "leetcode",
+      "platformSlug": "binary-tree-zigzag-level-order-traversal",
+      "platformUrl": "https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/"
+    },
+    {
+      "sheetProblemId": "striver-boundary-of-binary-tree",
+      "title": "Boundary Of Binary Tree",
+      "platform": "leetcode",
+      "platformSlug": "boundary-of-binary-tree",
+      "platformUrl": "https://leetcode.com/problems/boundary-of-binary-tree/"
+    },
+    {
+      "sheetProblemId": "striver-burst-balloons",
+      "title": "Burst Balloons",
+      "platform": "leetcode",
+      "platformSlug": "burst-balloons",
+      "platformUrl": "https://leetcode.com/problems/burst-balloons/"
+    },
+    {
+      "sheetProblemId": "striver-candy",
+      "title": "Candy",
+      "platform": "leetcode",
+      "platformSlug": "candy",
+      "platformUrl": "https://leetcode.com/problems/candy/"
+    },
+    {
+      "sheetProblemId": "striver-capacity-to-ship-packages-within-d-days",
+      "title": "Capacity To Ship Packages Within D Days",
+      "platform": "leetcode",
+      "platformSlug": "capacity-to-ship-packages-within-d-days",
+      "platformUrl": "https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/"
+    },
+    {
+      "sheetProblemId": "striver-cheapest-flights-within-k-stops",
+      "title": "Cheapest Flights Within K Stops",
+      "platform": "leetcode",
+      "platformSlug": "cheapest-flights-within-k-stops",
+      "platformUrl": "https://leetcode.com/problems/cheapest-flights-within-k-stops/"
+    },
+    {
+      "sheetProblemId": "striver-check-if-array-is-sorted-and-rotated",
+      "title": "Check If Array Is Sorted And Rotated",
+      "platform": "leetcode",
+      "platformSlug": "check-if-array-is-sorted-and-rotated",
+      "platformUrl": "https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/"
     },
     {
       "sheetProblemId": "striver-climbing-stairs",
       "title": "Climbing Stairs",
       "platform": "leetcode",
-      "platformProblemId": "70",
       "platformSlug": "climbing-stairs",
-      "platformUrl": "https://leetcode.com/problems/climbing-stairs/"
+      "platformUrl": "https://leetcode.com/problems/climbing-stairs/",
+      "platformProblemId": "70"
+    },
+    {
+      "sheetProblemId": "striver-coin-change",
+      "title": "Coin Change",
+      "platform": "leetcode",
+      "platformSlug": "coin-change",
+      "platformUrl": "https://leetcode.com/problems/coin-change/"
+    },
+    {
+      "sheetProblemId": "striver-coin-change-2",
+      "title": "Coin Change 2",
+      "platform": "leetcode",
+      "platformSlug": "coin-change-2",
+      "platformUrl": "https://leetcode.com/problems/coin-change-2/"
+    },
+    {
+      "sheetProblemId": "striver-combination-sum",
+      "title": "Combination Sum",
+      "platform": "leetcode",
+      "platformSlug": "combination-sum",
+      "platformUrl": "https://leetcode.com/problems/combination-sum/"
+    },
+    {
+      "sheetProblemId": "striver-combination-sum-ii",
+      "title": "Combination Sum Ii",
+      "platform": "leetcode",
+      "platformSlug": "combination-sum-ii",
+      "platformUrl": "https://leetcode.com/problems/combination-sum-ii/"
+    },
+    {
+      "sheetProblemId": "striver-combination-sum-iii",
+      "title": "Combination Sum Iii",
+      "platform": "leetcode",
+      "platformSlug": "combination-sum-iii",
+      "platformUrl": "https://leetcode.com/problems/combination-sum-iii/"
+    },
+    {
+      "sheetProblemId": "striver-construct-binary-search-tree-from-preorder-traversal",
+      "title": "Construct Binary Search Tree From Preorder Traversal",
+      "platform": "leetcode",
+      "platformSlug": "construct-binary-search-tree-from-preorder-traversal",
+      "platformUrl": "https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/"
+    },
+    {
+      "sheetProblemId": "striver-construct-binary-tree-from-inorder-and-postorder-traversal",
+      "title": "Construct Binary Tree From Inorder And Postorder Traversal",
+      "platform": "leetcode",
+      "platformSlug": "construct-binary-tree-from-inorder-and-postorder-traversal",
+      "platformUrl": "https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/"
+    },
+    {
+      "sheetProblemId": "striver-construct-binary-tree-from-preorder-and-inorder-traversal",
+      "title": "Construct Binary Tree From Preorder And Inorder Traversal",
+      "platform": "leetcode",
+      "platformSlug": "construct-binary-tree-from-preorder-and-inorder-traversal",
+      "platformUrl": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/"
+    },
+    {
+      "sheetProblemId": "striver-copy-list-with-random-pointer",
+      "title": "Copy List With Random Pointer",
+      "platform": "leetcode",
+      "platformSlug": "copy-list-with-random-pointer",
+      "platformUrl": "https://leetcode.com/problems/copy-list-with-random-pointer/"
+    },
+    {
+      "sheetProblemId": "striver-count-and-say",
+      "title": "Count And Say",
+      "platform": "leetcode",
+      "platformSlug": "count-and-say",
+      "platformUrl": "https://leetcode.com/problems/count-and-say/"
+    },
+    {
+      "sheetProblemId": "striver-count-complete-tree-nodes",
+      "title": "Count Complete Tree Nodes",
+      "platform": "leetcode",
+      "platformSlug": "count-complete-tree-nodes",
+      "platformUrl": "https://leetcode.com/problems/count-complete-tree-nodes/"
+    },
+    {
+      "sheetProblemId": "striver-count-good-numbers",
+      "title": "Count Good Numbers",
+      "platform": "leetcode",
+      "platformSlug": "count-good-numbers",
+      "platformUrl": "https://leetcode.com/problems/count-good-numbers/"
+    },
+    {
+      "sheetProblemId": "striver-count-number-of-nice-subarrays",
+      "title": "Count Number Of Nice Subarrays",
+      "platform": "leetcode",
+      "platformSlug": "count-number-of-nice-subarrays",
+      "platformUrl": "https://leetcode.com/problems/count-number-of-nice-subarrays/"
+    },
+    {
+      "sheetProblemId": "striver-count-palindromic-subsequences",
+      "title": "Count Palindromic Subsequences",
+      "platform": "leetcode",
+      "platformSlug": "count-palindromic-subsequences",
+      "platformUrl": "https://leetcode.com/problems/count-palindromic-subsequences/"
+    },
+    {
+      "sheetProblemId": "striver-count-primes",
+      "title": "Count Primes",
+      "platform": "leetcode",
+      "platformSlug": "count-primes",
+      "platformUrl": "https://leetcode.com/problems/count-primes/"
+    },
+    {
+      "sheetProblemId": "striver-count-square-submatrices-with-all-ones",
+      "title": "Count Square Submatrices With All Ones",
+      "platform": "leetcode",
+      "platformSlug": "count-square-submatrices-with-all-ones",
+      "platformUrl": "https://leetcode.com/problems/count-square-submatrices-with-all-ones/"
+    },
+    {
+      "sheetProblemId": "striver-course-schedule",
+      "title": "Course Schedule",
+      "platform": "leetcode",
+      "platformSlug": "course-schedule",
+      "platformUrl": "https://leetcode.com/problems/course-schedule/",
+      "platformProblemId": "207"
+    },
+    {
+      "sheetProblemId": "striver-course-schedule-ii",
+      "title": "Course Schedule Ii",
+      "platform": "leetcode",
+      "platformSlug": "course-schedule-ii",
+      "platformUrl": "https://leetcode.com/problems/course-schedule-ii/"
+    },
+    {
+      "sheetProblemId": "striver-critical-connections-in-a-network",
+      "title": "Critical Connections In A Network",
+      "platform": "leetcode",
+      "platformSlug": "critical-connections-in-a-network",
+      "platformUrl": "https://leetcode.com/problems/critical-connections-in-a-network/"
+    },
+    {
+      "sheetProblemId": "striver-delete-node-in-a-bst",
+      "title": "Delete Node In A Bst",
+      "platform": "leetcode",
+      "platformSlug": "delete-node-in-a-bst",
+      "platformUrl": "https://leetcode.com/problems/delete-node-in-a-bst/"
+    },
+    {
+      "sheetProblemId": "striver-delete-node-in-a-linked-list",
+      "title": "Delete Node In A Linked List",
+      "platform": "leetcode",
+      "platformSlug": "delete-node-in-a-linked-list",
+      "platformUrl": "https://leetcode.com/problems/delete-node-in-a-linked-list/"
+    },
+    {
+      "sheetProblemId": "striver-delete-operation-for-two-strings",
+      "title": "Delete Operation For Two Strings",
+      "platform": "leetcode",
+      "platformSlug": "delete-operation-for-two-strings",
+      "platformUrl": "https://leetcode.com/problems/delete-operation-for-two-strings/"
+    },
+    {
+      "sheetProblemId": "striver-delete-the-middle-node-of-a-linked-list",
+      "title": "Delete The Middle Node Of A Linked List",
+      "platform": "leetcode",
+      "platformSlug": "delete-the-middle-node-of-a-linked-list",
+      "platformUrl": "https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/"
+    },
+    {
+      "sheetProblemId": "striver-design-twitter",
+      "title": "Design Twitter",
+      "platform": "leetcode",
+      "platformSlug": "design-twitter",
+      "platformUrl": "https://leetcode.com/problems/design-twitter/"
+    },
+    {
+      "sheetProblemId": "striver-diameter-of-binary-tree",
+      "title": "Diameter Of Binary Tree",
+      "platform": "leetcode",
+      "platformSlug": "diameter-of-binary-tree",
+      "platformUrl": "https://leetcode.com/problems/diameter-of-binary-tree/"
+    },
+    {
+      "sheetProblemId": "striver-distinct-subsequences",
+      "title": "Distinct Subsequences",
+      "platform": "leetcode",
+      "platformSlug": "distinct-subsequences",
+      "platformUrl": "https://leetcode.com/problems/distinct-subsequences/"
+    },
+    {
+      "sheetProblemId": "striver-divide-two-integers",
+      "title": "Divide Two Integers",
+      "platform": "leetcode",
+      "platformSlug": "divide-two-integers",
+      "platformUrl": "https://leetcode.com/problems/divide-two-integers/"
+    },
+    {
+      "sheetProblemId": "striver-edit-distance",
+      "title": "Edit Distance",
+      "platform": "leetcode",
+      "platformSlug": "edit-distance",
+      "platformUrl": "https://leetcode.com/problems/edit-distance/"
+    },
+    {
+      "sheetProblemId": "striver-expression-add-operators",
+      "title": "Expression Add Operators",
+      "platform": "leetcode",
+      "platformSlug": "expression-add-operators",
+      "platformUrl": "https://leetcode.com/problems/expression-add-operators/"
+    },
+    {
+      "sheetProblemId": "striver-fibonacci-number",
+      "title": "Fibonacci Number",
+      "platform": "leetcode",
+      "platformSlug": "fibonacci-number",
+      "platformUrl": "https://leetcode.com/problems/fibonacci-number/"
+    },
+    {
+      "sheetProblemId": "striver-find-a-peak-element-ii",
+      "title": "Find A Peak Element Ii",
+      "platform": "leetcode",
+      "platformSlug": "find-a-peak-element-ii",
+      "platformUrl": "https://leetcode.com/problems/find-a-peak-element-ii/"
+    },
+    {
+      "sheetProblemId": "striver-find-eventual-safe-states",
+      "title": "Find Eventual Safe States",
+      "platform": "leetcode",
+      "platformSlug": "find-eventual-safe-states",
+      "platformUrl": "https://leetcode.com/problems/find-eventual-safe-states/"
+    },
+    {
+      "sheetProblemId": "striver-find-first-and-last-position-of-element-in-sorted-array",
+      "title": "Find First And Last Position Of Element In Sorted Array",
+      "platform": "leetcode",
+      "platformSlug": "find-first-and-last-position-of-element-in-sorted-array",
+      "platformUrl": "https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/"
+    },
+    {
+      "sheetProblemId": "striver-find-median-from-data-stream",
+      "title": "Find Median From Data Stream",
+      "platform": "leetcode",
+      "platformSlug": "find-median-from-data-stream",
+      "platformUrl": "https://leetcode.com/problems/find-median-from-data-stream/"
+    },
+    {
+      "sheetProblemId": "striver-find-minimum-in-rotated-sorted-array",
+      "title": "Find Minimum In Rotated Sorted Array",
+      "platform": "leetcode",
+      "platformSlug": "find-minimum-in-rotated-sorted-array",
+      "platformUrl": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/"
+    },
+    {
+      "sheetProblemId": "striver-find-peak-element",
+      "title": "Find Peak Element",
+      "platform": "leetcode",
+      "platformSlug": "find-peak-element",
+      "platformUrl": "https://leetcode.com/problems/find-peak-element/"
+    },
+    {
+      "sheetProblemId": "striver-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance",
+      "title": "Find The City With The Smallest Number Of Neighbors At A Threshold Distance",
+      "platform": "leetcode",
+      "platformSlug": "find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance",
+      "platformUrl": "https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/"
+    },
+    {
+      "sheetProblemId": "striver-find-the-smallest-divisor-given-a-threshold",
+      "title": "Find The Smallest Divisor Given A Threshold",
+      "platform": "leetcode",
+      "platformSlug": "find-the-smallest-divisor-given-a-threshold",
+      "platformUrl": "https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/"
+    },
+    {
+      "sheetProblemId": "striver-flatten-binary-tree-to-linked-list",
+      "title": "Flatten Binary Tree To Linked List",
+      "platform": "leetcode",
+      "platformSlug": "flatten-binary-tree-to-linked-list",
+      "platformUrl": "https://leetcode.com/problems/flatten-binary-tree-to-linked-list/"
+    },
+    {
+      "sheetProblemId": "striver-flood-fill",
+      "title": "Flood Fill",
+      "platform": "leetcode",
+      "platformSlug": "flood-fill",
+      "platformUrl": "https://leetcode.com/problems/flood-fill/"
+    },
+    {
+      "sheetProblemId": "striver-frequency-of-the-most-frequent-element",
+      "title": "Frequency Of The Most Frequent Element",
+      "platform": "leetcode",
+      "platformSlug": "frequency-of-the-most-frequent-element",
+      "platformUrl": "https://leetcode.com/problems/frequency-of-the-most-frequent-element/"
+    },
+    {
+      "sheetProblemId": "striver-fruit-into-baskets",
+      "title": "Fruit Into Baskets",
+      "platform": "leetcode",
+      "platformSlug": "fruit-into-baskets",
+      "platformUrl": "https://leetcode.com/problems/fruit-into-baskets/"
+    },
+    {
+      "sheetProblemId": "striver-generate-parentheses",
+      "title": "Generate Parentheses",
+      "platform": "leetcode",
+      "platformSlug": "generate-parentheses",
+      "platformUrl": "https://leetcode.com/problems/generate-parentheses/"
+    },
+    {
+      "sheetProblemId": "striver-hand-of-straights",
+      "title": "Hand Of Straights",
+      "platform": "leetcode",
+      "platformSlug": "hand-of-straights",
+      "platformUrl": "https://leetcode.com/problems/hand-of-straights/"
     },
     {
       "sheetProblemId": "striver-house-robber",
       "title": "House Robber",
       "platform": "leetcode",
-      "platformProblemId": "198",
       "platformSlug": "house-robber",
-      "platformUrl": "https://leetcode.com/problems/house-robber/"
+      "platformUrl": "https://leetcode.com/problems/house-robber/",
+      "platformProblemId": "198"
     },
     {
-      "sheetProblemId": "striver-longest-increasing-subsequence",
-      "title": "Longest Increasing Subsequence",
+      "sheetProblemId": "striver-house-robber-ii",
+      "title": "House Robber Ii",
       "platform": "leetcode",
-      "platformProblemId": "300",
-      "platformSlug": "longest-increasing-subsequence",
-      "platformUrl": "https://leetcode.com/problems/longest-increasing-subsequence/"
+      "platformSlug": "house-robber-ii",
+      "platformUrl": "https://leetcode.com/problems/house-robber-ii/"
     },
     {
-      "sheetProblemId": "striver-word-break",
-      "title": "Word Break",
+      "sheetProblemId": "striver-implement-queue-using-stacks",
+      "title": "Implement Queue Using Stacks",
       "platform": "leetcode",
-      "platformProblemId": "139",
-      "platformSlug": "word-break",
-      "platformUrl": "https://leetcode.com/problems/word-break/"
+      "platformSlug": "implement-queue-using-stacks",
+      "platformUrl": "https://leetcode.com/problems/implement-queue-using-stacks/"
     },
     {
-      "sheetProblemId": "striver-lru-cache",
-      "title": "LRU Cache",
+      "sheetProblemId": "striver-implement-stack-using-queues",
+      "title": "Implement Stack Using Queues",
       "platform": "leetcode",
-      "platformProblemId": "146",
-      "platformSlug": "lru-cache",
-      "platformUrl": "https://leetcode.com/problems/lru-cache/"
+      "platformSlug": "implement-stack-using-queues",
+      "platformUrl": "https://leetcode.com/problems/implement-stack-using-queues/"
+    },
+    {
+      "sheetProblemId": "striver-implement-strstr",
+      "title": "Implement Strstr",
+      "platform": "leetcode",
+      "platformSlug": "implement-strstr",
+      "platformUrl": "https://leetcode.com/problems/implement-strstr/"
+    },
+    {
+      "sheetProblemId": "striver-implement-trie-prefix-tree",
+      "title": "Implement Trie Prefix Tree",
+      "platform": "leetcode",
+      "platformSlug": "implement-trie-prefix-tree",
+      "platformUrl": "https://leetcode.com/problems/implement-trie-prefix-tree/"
+    },
+    {
+      "sheetProblemId": "striver-inorder-successor-in-bst",
+      "title": "Inorder Successor In Bst",
+      "platform": "leetcode",
+      "platformSlug": "inorder-successor-in-bst",
+      "platformUrl": "https://leetcode.com/problems/inorder-successor-in-bst/"
+    },
+    {
+      "sheetProblemId": "striver-insert-interval",
+      "title": "Insert Interval",
+      "platform": "leetcode",
+      "platformSlug": "insert-interval",
+      "platformUrl": "https://leetcode.com/problems/insert-interval/"
+    },
+    {
+      "sheetProblemId": "striver-insert-into-a-binary-search-tree",
+      "title": "Insert Into A Binary Search Tree",
+      "platform": "leetcode",
+      "platformSlug": "insert-into-a-binary-search-tree",
+      "platformUrl": "https://leetcode.com/problems/insert-into-a-binary-search-tree/"
+    },
+    {
+      "sheetProblemId": "striver-intersection-of-two-linked-lists",
+      "title": "Intersection Of Two Linked Lists",
+      "platform": "leetcode",
+      "platformSlug": "intersection-of-two-linked-lists",
+      "platformUrl": "https://leetcode.com/problems/intersection-of-two-linked-lists/"
+    },
+    {
+      "sheetProblemId": "striver-is-graph-bipartite",
+      "title": "Is Graph Bipartite",
+      "platform": "leetcode",
+      "platformSlug": "is-graph-bipartite",
+      "platformUrl": "https://leetcode.com/problems/is-graph-bipartite/"
+    },
+    {
+      "sheetProblemId": "striver-isomorphic-strings",
+      "title": "Isomorphic Strings",
+      "platform": "leetcode",
+      "platformSlug": "isomorphic-strings",
+      "platformUrl": "https://leetcode.com/problems/isomorphic-strings/"
+    },
+    {
+      "sheetProblemId": "striver-jump-game",
+      "title": "Jump Game",
+      "platform": "leetcode",
+      "platformSlug": "jump-game",
+      "platformUrl": "https://leetcode.com/problems/jump-game/"
+    },
+    {
+      "sheetProblemId": "striver-jump-game-ii",
+      "title": "Jump Game Ii",
+      "platform": "leetcode",
+      "platformSlug": "jump-game-ii",
+      "platformUrl": "https://leetcode.com/problems/jump-game-ii/"
+    },
+    {
+      "sheetProblemId": "striver-koko-eating-bananas",
+      "title": "Koko Eating Bananas",
+      "platform": "leetcode",
+      "platformSlug": "koko-eating-bananas",
+      "platformUrl": "https://leetcode.com/problems/koko-eating-bananas/",
+      "platformProblemId": "875"
+    },
+    {
+      "sheetProblemId": "striver-kth-largest-element-in-a-stream",
+      "title": "Kth Largest Element In A Stream",
+      "platform": "leetcode",
+      "platformSlug": "kth-largest-element-in-a-stream",
+      "platformUrl": "https://leetcode.com/problems/kth-largest-element-in-a-stream/"
+    },
+    {
+      "sheetProblemId": "striver-kth-missing-positive-number",
+      "title": "Kth Missing Positive Number",
+      "platform": "leetcode",
+      "platformSlug": "kth-missing-positive-number",
+      "platformUrl": "https://leetcode.com/problems/kth-missing-positive-number/"
+    },
+    {
+      "sheetProblemId": "striver-kth-smallest-element-in-a-bst",
+      "title": "Kth Smallest Element In A Bst",
+      "platform": "leetcode",
+      "platformSlug": "kth-smallest-element-in-a-bst",
+      "platformUrl": "https://leetcode.com/problems/kth-smallest-element-in-a-bst/"
+    },
+    {
+      "sheetProblemId": "striver-largest-divisible-subset",
+      "title": "Largest Divisible Subset",
+      "platform": "leetcode",
+      "platformSlug": "largest-divisible-subset",
+      "platformUrl": "https://leetcode.com/problems/largest-divisible-subset/"
+    },
+    {
+      "sheetProblemId": "striver-largest-odd-number-in-string",
+      "title": "Largest Odd Number In String",
+      "platform": "leetcode",
+      "platformSlug": "largest-odd-number-in-string",
+      "platformUrl": "https://leetcode.com/problems/largest-odd-number-in-string/"
+    },
+    {
+      "sheetProblemId": "striver-largest-rectangle-in-histogram",
+      "title": "Largest Rectangle In Histogram",
+      "platform": "leetcode",
+      "platformSlug": "largest-rectangle-in-histogram",
+      "platformUrl": "https://leetcode.com/problems/largest-rectangle-in-histogram/"
+    },
+    {
+      "sheetProblemId": "striver-lemonade-change",
+      "title": "Lemonade Change",
+      "platform": "leetcode",
+      "platformSlug": "lemonade-change",
+      "platformUrl": "https://leetcode.com/problems/lemonade-change/"
+    },
+    {
+      "sheetProblemId": "striver-letter-combinations-of-a-phone-number",
+      "title": "Letter Combinations Of A Phone Number",
+      "platform": "leetcode",
+      "platformSlug": "letter-combinations-of-a-phone-number",
+      "platformUrl": "https://leetcode.com/problems/letter-combinations-of-a-phone-number/"
+    },
+    {
+      "sheetProblemId": "striver-lfu-cache",
+      "title": "Lfu Cache",
+      "platform": "leetcode",
+      "platformSlug": "lfu-cache",
+      "platformUrl": "https://leetcode.com/problems/lfu-cache/"
+    },
+    {
+      "sheetProblemId": "striver-linked-list-cycle",
+      "title": "Linked List Cycle",
+      "platform": "leetcode",
+      "platformSlug": "linked-list-cycle",
+      "platformUrl": "https://leetcode.com/problems/linked-list-cycle/",
+      "platformProblemId": "141"
+    },
+    {
+      "sheetProblemId": "striver-linked-list-cycle-ii",
+      "title": "Linked List Cycle Ii",
+      "platform": "leetcode",
+      "platformSlug": "linked-list-cycle-ii",
+      "platformUrl": "https://leetcode.com/problems/linked-list-cycle-ii/"
+    },
+    {
+      "sheetProblemId": "striver-longest-common-prefix",
+      "title": "Longest Common Prefix",
+      "platform": "leetcode",
+      "platformSlug": "longest-common-prefix",
+      "platformUrl": "https://leetcode.com/problems/longest-common-prefix/"
+    },
+    {
+      "sheetProblemId": "striver-longest-consecutive-sequence",
+      "title": "Longest Consecutive Sequence",
+      "platform": "leetcode",
+      "platformSlug": "longest-consecutive-sequence",
+      "platformUrl": "https://leetcode.com/problems/longest-consecutive-sequence/",
+      "platformProblemId": "128"
+    },
+    {
+      "sheetProblemId": "striver-longest-happy-prefix",
+      "title": "Longest Happy Prefix",
+      "platform": "leetcode",
+      "platformSlug": "longest-happy-prefix",
+      "platformUrl": "https://leetcode.com/problems/longest-happy-prefix/"
+    },
+    {
+      "sheetProblemId": "striver-longest-palindromic-subsequence",
+      "title": "Longest Palindromic Subsequence",
+      "platform": "leetcode",
+      "platformSlug": "longest-palindromic-subsequence",
+      "platformUrl": "https://leetcode.com/problems/longest-palindromic-subsequence/"
+    },
+    {
+      "sheetProblemId": "striver-longest-palindromic-substring",
+      "title": "Longest Palindromic Substring",
+      "platform": "leetcode",
+      "platformSlug": "longest-palindromic-substring",
+      "platformUrl": "https://leetcode.com/problems/longest-palindromic-substring/"
+    },
+    {
+      "sheetProblemId": "striver-longest-repeating-character-replacement",
+      "title": "Longest Repeating Character Replacement",
+      "platform": "leetcode",
+      "platformSlug": "longest-repeating-character-replacement",
+      "platformUrl": "https://leetcode.com/problems/longest-repeating-character-replacement/"
+    },
+    {
+      "sheetProblemId": "striver-longest-string-chain",
+      "title": "Longest String Chain",
+      "platform": "leetcode",
+      "platformSlug": "longest-string-chain",
+      "platformUrl": "https://leetcode.com/problems/longest-string-chain/"
+    },
+    {
+      "sheetProblemId": "striver-longest-substring-with-at-most-k-distinct-characters",
+      "title": "Longest Substring With At Most K Distinct Characters",
+      "platform": "leetcode",
+      "platformSlug": "longest-substring-with-at-most-k-distinct-characters",
+      "platformUrl": "https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/"
+    },
+    {
+      "sheetProblemId": "striver-longest-substring-without-repeating-characters",
+      "title": "Longest Substring Without Repeating Characters",
+      "platform": "leetcode",
+      "platformSlug": "longest-substring-without-repeating-characters",
+      "platformUrl": "https://leetcode.com/problems/longest-substring-without-repeating-characters/"
+    },
+    {
+      "sheetProblemId": "striver-lowest-common-ancestor-of-a-binary-search-tree",
+      "title": "Lowest Common Ancestor Of A Binary Search Tree",
+      "platform": "leetcode",
+      "platformSlug": "lowest-common-ancestor-of-a-binary-search-tree",
+      "platformUrl": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/"
+    },
+    {
+      "sheetProblemId": "striver-lowest-common-ancestor-of-a-binary-tree",
+      "title": "Lowest Common Ancestor Of A Binary Tree",
+      "platform": "leetcode",
+      "platformSlug": "lowest-common-ancestor-of-a-binary-tree",
+      "platformUrl": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/"
+    },
+    {
+      "sheetProblemId": "striver-majority-element",
+      "title": "Majority Element",
+      "platform": "leetcode",
+      "platformSlug": "majority-element",
+      "platformUrl": "https://leetcode.com/problems/majority-element/"
+    },
+    {
+      "sheetProblemId": "striver-majority-element-ii",
+      "title": "Majority Element Ii",
+      "platform": "leetcode",
+      "platformSlug": "majority-element-ii",
+      "platformUrl": "https://leetcode.com/problems/majority-element-ii/"
+    },
+    {
+      "sheetProblemId": "striver-making-a-large-island",
+      "title": "Making A Large Island",
+      "platform": "leetcode",
+      "platformSlug": "making-a-large-island",
+      "platformUrl": "https://leetcode.com/problems/making-a-large-island/"
+    },
+    {
+      "sheetProblemId": "striver-max-consecutive-ones",
+      "title": "Max Consecutive Ones",
+      "platform": "leetcode",
+      "platformSlug": "max-consecutive-ones",
+      "platformUrl": "https://leetcode.com/problems/max-consecutive-ones/"
+    },
+    {
+      "sheetProblemId": "striver-max-consecutive-ones-iii",
+      "title": "Max Consecutive Ones Iii",
+      "platform": "leetcode",
+      "platformSlug": "max-consecutive-ones-iii",
+      "platformUrl": "https://leetcode.com/problems/max-consecutive-ones-iii/"
+    },
+    {
+      "sheetProblemId": "striver-maximal-rectangle",
+      "title": "Maximal Rectangle",
+      "platform": "leetcode",
+      "platformSlug": "maximal-rectangle",
+      "platformUrl": "https://leetcode.com/problems/maximal-rectangle/"
+    },
+    {
+      "sheetProblemId": "striver-maximum-depth-of-binary-tree",
+      "title": "Maximum Depth Of Binary Tree",
+      "platform": "leetcode",
+      "platformSlug": "maximum-depth-of-binary-tree",
+      "platformUrl": "https://leetcode.com/problems/maximum-depth-of-binary-tree/"
+    },
+    {
+      "sheetProblemId": "striver-maximum-nesting-depth-of-the-parentheses",
+      "title": "Maximum Nesting Depth Of The Parentheses",
+      "platform": "leetcode",
+      "platformSlug": "maximum-nesting-depth-of-the-parentheses",
+      "platformUrl": "https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/"
+    },
+    {
+      "sheetProblemId": "striver-maximum-number-of-non-overlapping-substrings",
+      "title": "Maximum Number Of Non Overlapping Substrings",
+      "platform": "leetcode",
+      "platformSlug": "maximum-number-of-non-overlapping-substrings",
+      "platformUrl": "https://leetcode.com/problems/maximum-number-of-non-overlapping-substrings/"
+    },
+    {
+      "sheetProblemId": "striver-maximum-points-you-can-obtain-from-cards",
+      "title": "Maximum Points You Can Obtain From Cards",
+      "platform": "leetcode",
+      "platformSlug": "maximum-points-you-can-obtain-from-cards",
+      "platformUrl": "https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/"
+    },
+    {
+      "sheetProblemId": "striver-maximum-product-subarray",
+      "title": "Maximum Product Subarray",
+      "platform": "leetcode",
+      "platformSlug": "maximum-product-subarray",
+      "platformUrl": "https://leetcode.com/problems/maximum-product-subarray/"
+    },
+    {
+      "sheetProblemId": "striver-kadanes-algorithm",
+      "title": "Maximum Subarray",
+      "platform": "leetcode",
+      "platformSlug": "maximum-subarray",
+      "platformUrl": "https://leetcode.com/problems/maximum-subarray/",
+      "platformProblemId": "53"
+    },
+    {
+      "sheetProblemId": "striver-maximum-sum-bst-in-binary-tree",
+      "title": "Maximum Sum Bst In Binary Tree",
+      "platform": "leetcode",
+      "platformSlug": "maximum-sum-bst-in-binary-tree",
+      "platformUrl": "https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/"
+    },
+    {
+      "sheetProblemId": "striver-maximum-width-of-binary-tree",
+      "title": "Maximum Width Of Binary Tree",
+      "platform": "leetcode",
+      "platformSlug": "maximum-width-of-binary-tree",
+      "platformUrl": "https://leetcode.com/problems/maximum-width-of-binary-tree/"
+    },
+    {
+      "sheetProblemId": "striver-maximum-xor-of-two-numbers-in-an-array",
+      "title": "Maximum Xor Of Two Numbers In An Array",
+      "platform": "leetcode",
+      "platformSlug": "maximum-xor-of-two-numbers-in-an-array",
+      "platformUrl": "https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/"
+    },
+    {
+      "sheetProblemId": "striver-maximum-xor-with-an-element-from-array",
+      "title": "Maximum Xor With An Element From Array",
+      "platform": "leetcode",
+      "platformSlug": "maximum-xor-with-an-element-from-array",
+      "platformUrl": "https://leetcode.com/problems/maximum-xor-with-an-element-from-array/"
+    },
+    {
+      "sheetProblemId": "striver-median-of-two-sorted-arrays",
+      "title": "Median of Two Sorted Arrays",
+      "platform": "leetcode",
+      "platformSlug": "median-of-two-sorted-arrays",
+      "platformUrl": "https://leetcode.com/problems/median-of-two-sorted-arrays/",
+      "platformProblemId": "4"
+    },
+    {
+      "sheetProblemId": "striver-merge-intervals",
+      "title": "Merge Intervals",
+      "platform": "leetcode",
+      "platformSlug": "merge-intervals",
+      "platformUrl": "https://leetcode.com/problems/merge-intervals/",
+      "platformProblemId": "56"
+    },
+    {
+      "sheetProblemId": "striver-merge-k-sorted-lists",
+      "title": "Merge K Sorted Lists",
+      "platform": "leetcode",
+      "platformSlug": "merge-k-sorted-lists",
+      "platformUrl": "https://leetcode.com/problems/merge-k-sorted-lists/"
+    },
+    {
+      "sheetProblemId": "striver-merge-sorted-array",
+      "title": "Merge Sorted Array",
+      "platform": "leetcode",
+      "platformSlug": "merge-sorted-array",
+      "platformUrl": "https://leetcode.com/problems/merge-sorted-array/",
+      "platformProblemId": "88"
+    },
+    {
+      "sheetProblemId": "striver-middle-of-linked-list",
+      "title": "Middle of the Linked List",
+      "platform": "leetcode",
+      "platformSlug": "middle-of-the-linked-list",
+      "platformUrl": "https://leetcode.com/problems/middle-of-the-linked-list/",
+      "platformProblemId": "876"
+    },
+    {
+      "sheetProblemId": "striver-min-stack",
+      "title": "Min Stack",
+      "platform": "leetcode",
+      "platformSlug": "min-stack",
+      "platformUrl": "https://leetcode.com/problems/min-stack/"
+    },
+    {
+      "sheetProblemId": "striver-minimize-max-distance-to-gas-station",
+      "title": "Minimize Max Distance To Gas Station",
+      "platform": "leetcode",
+      "platformSlug": "minimize-max-distance-to-gas-station",
+      "platformUrl": "https://leetcode.com/problems/minimize-max-distance-to-gas-station/"
+    },
+    {
+      "sheetProblemId": "striver-minimum-add-to-make-parentheses-valid",
+      "title": "Minimum Add To Make Parentheses Valid",
+      "platform": "leetcode",
+      "platformSlug": "minimum-add-to-make-parentheses-valid",
+      "platformUrl": "https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/"
+    },
+    {
+      "sheetProblemId": "striver-minimum-bit-flips-to-convert-number",
+      "title": "Minimum Bit Flips To Convert Number",
+      "platform": "leetcode",
+      "platformSlug": "minimum-bit-flips-to-convert-number",
+      "platformUrl": "https://leetcode.com/problems/minimum-bit-flips-to-convert-number/"
+    },
+    {
+      "sheetProblemId": "striver-minimum-cost-to-cut-a-stick",
+      "title": "Minimum Cost To Cut A Stick",
+      "platform": "leetcode",
+      "platformSlug": "minimum-cost-to-cut-a-stick",
+      "platformUrl": "https://leetcode.com/problems/minimum-cost-to-cut-a-stick/"
+    },
+    {
+      "sheetProblemId": "striver-minimum-insertion-steps-to-make-a-string-palindrome",
+      "title": "Minimum Insertion Steps To Make A String Palindrome",
+      "platform": "leetcode",
+      "platformSlug": "minimum-insertion-steps-to-make-a-string-palindrome",
+      "platformUrl": "https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/"
+    },
+    {
+      "sheetProblemId": "striver-minimum-number-of-days-to-make-m-bouquets",
+      "title": "Minimum Number Of Days To Make M Bouquets",
+      "platform": "leetcode",
+      "platformSlug": "minimum-number-of-days-to-make-m-bouquets",
+      "platformUrl": "https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/"
+    },
+    {
+      "sheetProblemId": "striver-minimum-path-sum",
+      "title": "Minimum Path Sum",
+      "platform": "leetcode",
+      "platformSlug": "minimum-path-sum",
+      "platformUrl": "https://leetcode.com/problems/minimum-path-sum/"
+    },
+    {
+      "sheetProblemId": "striver-minimum-window-subsequence",
+      "title": "Minimum Window Subsequence",
+      "platform": "leetcode",
+      "platformSlug": "minimum-window-subsequence",
+      "platformUrl": "https://leetcode.com/problems/minimum-window-subsequence/"
+    },
+    {
+      "sheetProblemId": "striver-minimum-window-substring",
+      "title": "Minimum Window Substring",
+      "platform": "leetcode",
+      "platformSlug": "minimum-window-substring",
+      "platformUrl": "https://leetcode.com/problems/minimum-window-substring/"
+    },
+    {
+      "sheetProblemId": "striver-most-stones-removed-with-same-row-or-column",
+      "title": "Most Stones Removed With Same Row Or Column",
+      "platform": "leetcode",
+      "platformSlug": "most-stones-removed-with-same-row-or-column",
+      "platformUrl": "https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/"
+    },
+    {
+      "sheetProblemId": "striver-move-zeroes",
+      "title": "Move Zeroes",
+      "platform": "leetcode",
+      "platformSlug": "move-zeroes",
+      "platformUrl": "https://leetcode.com/problems/move-zeroes/"
+    },
+    {
+      "sheetProblemId": "striver-n-queens",
+      "title": "N Queens",
+      "platform": "leetcode",
+      "platformSlug": "n-queens",
+      "platformUrl": "https://leetcode.com/problems/n-queens/"
+    },
+    {
+      "sheetProblemId": "striver-network-delay-time",
+      "title": "Network Delay Time",
+      "platform": "leetcode",
+      "platformSlug": "network-delay-time",
+      "platformUrl": "https://leetcode.com/problems/network-delay-time/"
+    },
+    {
+      "sheetProblemId": "striver-next-greater-element-i",
+      "title": "Next Greater Element I",
+      "platform": "leetcode",
+      "platformSlug": "next-greater-element-i",
+      "platformUrl": "https://leetcode.com/problems/next-greater-element-i/"
+    },
+    {
+      "sheetProblemId": "striver-next-greater-element-ii",
+      "title": "Next Greater Element Ii",
+      "platform": "leetcode",
+      "platformSlug": "next-greater-element-ii",
+      "platformUrl": "https://leetcode.com/problems/next-greater-element-ii/"
+    },
+    {
+      "sheetProblemId": "striver-next-permutation",
+      "title": "Next Permutation",
+      "platform": "leetcode",
+      "platformSlug": "next-permutation",
+      "platformUrl": "https://leetcode.com/problems/next-permutation/",
+      "platformProblemId": "31"
+    },
+    {
+      "sheetProblemId": "striver-non-overlapping-intervals",
+      "title": "Non Overlapping Intervals",
+      "platform": "leetcode",
+      "platformSlug": "non-overlapping-intervals",
+      "platformUrl": "https://leetcode.com/problems/non-overlapping-intervals/"
+    },
+    {
+      "sheetProblemId": "striver-number-of-enclaves",
+      "title": "Number Of Enclaves",
+      "platform": "leetcode",
+      "platformSlug": "number-of-enclaves",
+      "platformUrl": "https://leetcode.com/problems/number-of-enclaves/"
+    },
+    {
+      "sheetProblemId": "striver-number-of-islands",
+      "title": "Number of Islands",
+      "platform": "leetcode",
+      "platformSlug": "number-of-islands",
+      "platformUrl": "https://leetcode.com/problems/number-of-islands/",
+      "platformProblemId": "200"
+    },
+    {
+      "sheetProblemId": "striver-number-of-islands-ii",
+      "title": "Number Of Islands Ii",
+      "platform": "leetcode",
+      "platformSlug": "number-of-islands-ii",
+      "platformUrl": "https://leetcode.com/problems/number-of-islands-ii/"
+    },
+    {
+      "sheetProblemId": "striver-number-of-longest-increasing-subsequence",
+      "title": "Number Of Longest Increasing Subsequence",
+      "platform": "leetcode",
+      "platformSlug": "number-of-longest-increasing-subsequence",
+      "platformUrl": "https://leetcode.com/problems/number-of-longest-increasing-subsequence/"
+    },
+    {
+      "sheetProblemId": "striver-number-of-operations-to-make-network-connected",
+      "title": "Number Of Operations To Make Network Connected",
+      "platform": "leetcode",
+      "platformSlug": "number-of-operations-to-make-network-connected",
+      "platformUrl": "https://leetcode.com/problems/number-of-operations-to-make-network-connected/"
+    },
+    {
+      "sheetProblemId": "striver-number-of-provinces",
+      "title": "Number Of Provinces",
+      "platform": "leetcode",
+      "platformSlug": "number-of-provinces",
+      "platformUrl": "https://leetcode.com/problems/number-of-provinces/"
+    },
+    {
+      "sheetProblemId": "striver-number-of-substrings-containing-all-three-characters",
+      "title": "Number Of Substrings Containing All Three Characters",
+      "platform": "leetcode",
+      "platformSlug": "number-of-substrings-containing-all-three-characters",
+      "platformUrl": "https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/"
+    },
+    {
+      "sheetProblemId": "striver-number-of-ways-to-arrive-at-destination",
+      "title": "Number Of Ways To Arrive At Destination",
+      "platform": "leetcode",
+      "platformSlug": "number-of-ways-to-arrive-at-destination",
+      "platformUrl": "https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/"
+    },
+    {
+      "sheetProblemId": "striver-odd-even-linked-list",
+      "title": "Odd Even Linked List",
+      "platform": "leetcode",
+      "platformSlug": "odd-even-linked-list",
+      "platformUrl": "https://leetcode.com/problems/odd-even-linked-list/"
+    },
+    {
+      "sheetProblemId": "striver-online-stock-span",
+      "title": "Online Stock Span",
+      "platform": "leetcode",
+      "platformSlug": "online-stock-span",
+      "platformUrl": "https://leetcode.com/problems/online-stock-span/"
+    },
+    {
+      "sheetProblemId": "striver-palindrome-linked-list",
+      "title": "Palindrome Linked List",
+      "platform": "leetcode",
+      "platformSlug": "palindrome-linked-list",
+      "platformUrl": "https://leetcode.com/problems/palindrome-linked-list/"
+    },
+    {
+      "sheetProblemId": "striver-palindrome-number",
+      "title": "Palindrome Number",
+      "platform": "leetcode",
+      "platformSlug": "palindrome-number",
+      "platformUrl": "https://leetcode.com/problems/palindrome-number/"
+    },
+    {
+      "sheetProblemId": "striver-palindrome-partitioning-ii",
+      "title": "Palindrome Partitioning Ii",
+      "platform": "leetcode",
+      "platformSlug": "palindrome-partitioning-ii",
+      "platformUrl": "https://leetcode.com/problems/palindrome-partitioning-ii/"
+    },
+    {
+      "sheetProblemId": "striver-parsing-a-boolean-expression",
+      "title": "Parsing A Boolean Expression",
+      "platform": "leetcode",
+      "platformSlug": "parsing-a-boolean-expression",
+      "platformUrl": "https://leetcode.com/problems/parsing-a-boolean-expression/"
+    },
+    {
+      "sheetProblemId": "striver-partition-array-for-maximum-sum",
+      "title": "Partition Array For Maximum Sum",
+      "platform": "leetcode",
+      "platformSlug": "partition-array-for-maximum-sum",
+      "platformUrl": "https://leetcode.com/problems/partition-array-for-maximum-sum/"
+    },
+    {
+      "sheetProblemId": "striver-partition-array-into-two-arrays-to-minimize-sum-difference",
+      "title": "Partition Array Into Two Arrays To Minimize Sum Difference",
+      "platform": "leetcode",
+      "platformSlug": "partition-array-into-two-arrays-to-minimize-sum-difference",
+      "platformUrl": "https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/"
+    },
+    {
+      "sheetProblemId": "striver-partition-equal-subset-sum",
+      "title": "Partition Equal Subset Sum",
+      "platform": "leetcode",
+      "platformSlug": "partition-equal-subset-sum",
+      "platformUrl": "https://leetcode.com/problems/partition-equal-subset-sum/"
+    },
+    {
+      "sheetProblemId": "striver-pascals-triangle",
+      "title": "Pascal's Triangle",
+      "platform": "leetcode",
+      "platformSlug": "pascals-triangle",
+      "platformUrl": "https://leetcode.com/problems/pascals-triangle/",
+      "platformProblemId": "118"
+    },
+    {
+      "sheetProblemId": "striver-path-with-minimum-effort",
+      "title": "Path With Minimum Effort",
+      "platform": "leetcode",
+      "platformSlug": "path-with-minimum-effort",
+      "platformUrl": "https://leetcode.com/problems/path-with-minimum-effort/"
+    },
+    {
+      "sheetProblemId": "striver-power-of-two",
+      "title": "Power Of Two",
+      "platform": "leetcode",
+      "platformSlug": "power-of-two",
+      "platformUrl": "https://leetcode.com/problems/power-of-two/"
+    },
+    {
+      "sheetProblemId": "striver-powx-n",
+      "title": "Powx N",
+      "platform": "leetcode",
+      "platformSlug": "powx-n",
+      "platformUrl": "https://leetcode.com/problems/powx-n/"
+    },
+    {
+      "sheetProblemId": "striver-rearrange-array-elements-by-sign",
+      "title": "Rearrange Array Elements By Sign",
+      "platform": "leetcode",
+      "platformSlug": "rearrange-array-elements-by-sign",
+      "platformUrl": "https://leetcode.com/problems/rearrange-array-elements-by-sign/"
+    },
+    {
+      "sheetProblemId": "striver-recover-binary-search-tree",
+      "title": "Recover Binary Search Tree",
+      "platform": "leetcode",
+      "platformSlug": "recover-binary-search-tree",
+      "platformUrl": "https://leetcode.com/problems/recover-binary-search-tree/"
+    },
+    {
+      "sheetProblemId": "striver-remove-duplicates-from-sorted-array",
+      "title": "Remove Duplicates From Sorted Array",
+      "platform": "leetcode",
+      "platformSlug": "remove-duplicates-from-sorted-array",
+      "platformUrl": "https://leetcode.com/problems/remove-duplicates-from-sorted-array/"
+    },
+    {
+      "sheetProblemId": "striver-remove-k-digits",
+      "title": "Remove K Digits",
+      "platform": "leetcode",
+      "platformSlug": "remove-k-digits",
+      "platformUrl": "https://leetcode.com/problems/remove-k-digits/"
+    },
+    {
+      "sheetProblemId": "striver-remove-nth-node-from-end",
+      "title": "Remove Nth Node From End of List",
+      "platform": "leetcode",
+      "platformSlug": "remove-nth-node-from-end-of-list",
+      "platformUrl": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/",
+      "platformProblemId": "19"
+    },
+    {
+      "sheetProblemId": "striver-remove-outermost-parentheses",
+      "title": "Remove Outermost Parentheses",
+      "platform": "leetcode",
+      "platformSlug": "remove-outermost-parentheses",
+      "platformUrl": "https://leetcode.com/problems/remove-outermost-parentheses/"
+    },
+    {
+      "sheetProblemId": "striver-repeated-string-match",
+      "title": "Repeated String Match",
+      "platform": "leetcode",
+      "platformSlug": "repeated-string-match",
+      "platformUrl": "https://leetcode.com/problems/repeated-string-match/"
+    },
+    {
+      "sheetProblemId": "striver-reverse-integer",
+      "title": "Reverse Integer",
+      "platform": "leetcode",
+      "platformSlug": "reverse-integer",
+      "platformUrl": "https://leetcode.com/problems/reverse-integer/"
+    },
+    {
+      "sheetProblemId": "striver-reverse-linked-list",
+      "title": "Reverse Linked List",
+      "platform": "leetcode",
+      "platformSlug": "reverse-linked-list",
+      "platformUrl": "https://leetcode.com/problems/reverse-linked-list/",
+      "platformProblemId": "206"
+    },
+    {
+      "sheetProblemId": "striver-reverse-nodes-in-k-group",
+      "title": "Reverse Nodes In K Group",
+      "platform": "leetcode",
+      "platformSlug": "reverse-nodes-in-k-group",
+      "platformUrl": "https://leetcode.com/problems/reverse-nodes-in-k-group/"
+    },
+    {
+      "sheetProblemId": "striver-reverse-pairs",
+      "title": "Reverse Pairs",
+      "platform": "leetcode",
+      "platformSlug": "reverse-pairs",
+      "platformUrl": "https://leetcode.com/problems/reverse-pairs/"
+    },
+    {
+      "sheetProblemId": "striver-reverse-words-in-a-string",
+      "title": "Reverse Words In A String",
+      "platform": "leetcode",
+      "platformSlug": "reverse-words-in-a-string",
+      "platformUrl": "https://leetcode.com/problems/reverse-words-in-a-string/"
+    },
+    {
+      "sheetProblemId": "striver-roman-to-integer",
+      "title": "Roman To Integer",
+      "platform": "leetcode",
+      "platformSlug": "roman-to-integer",
+      "platformUrl": "https://leetcode.com/problems/roman-to-integer/"
+    },
+    {
+      "sheetProblemId": "striver-rotate-array",
+      "title": "Rotate Array",
+      "platform": "leetcode",
+      "platformSlug": "rotate-array",
+      "platformUrl": "https://leetcode.com/problems/rotate-array/"
+    },
+    {
+      "sheetProblemId": "striver-rotate-image",
+      "title": "Rotate Image",
+      "platform": "leetcode",
+      "platformSlug": "rotate-image",
+      "platformUrl": "https://leetcode.com/problems/rotate-image/",
+      "platformProblemId": "48"
+    },
+    {
+      "sheetProblemId": "striver-rotate-list",
+      "title": "Rotate List",
+      "platform": "leetcode",
+      "platformSlug": "rotate-list",
+      "platformUrl": "https://leetcode.com/problems/rotate-list/"
+    },
+    {
+      "sheetProblemId": "striver-rotate-string",
+      "title": "Rotate String",
+      "platform": "leetcode",
+      "platformSlug": "rotate-string",
+      "platformUrl": "https://leetcode.com/problems/rotate-string/"
+    },
+    {
+      "sheetProblemId": "striver-rotting-oranges",
+      "title": "Rotting Oranges",
+      "platform": "leetcode",
+      "platformSlug": "rotting-oranges",
+      "platformUrl": "https://leetcode.com/problems/rotting-oranges/"
+    },
+    {
+      "sheetProblemId": "striver-same-tree",
+      "title": "Same Tree",
+      "platform": "leetcode",
+      "platformSlug": "same-tree",
+      "platformUrl": "https://leetcode.com/problems/same-tree/"
+    },
+    {
+      "sheetProblemId": "striver-search-a-2d-matrix",
+      "title": "Search A 2d Matrix",
+      "platform": "leetcode",
+      "platformSlug": "search-a-2d-matrix",
+      "platformUrl": "https://leetcode.com/problems/search-a-2d-matrix/"
+    },
+    {
+      "sheetProblemId": "striver-search-a-2d-matrix-ii",
+      "title": "Search A 2d Matrix Ii",
+      "platform": "leetcode",
+      "platformSlug": "search-a-2d-matrix-ii",
+      "platformUrl": "https://leetcode.com/problems/search-a-2d-matrix-ii/"
+    },
+    {
+      "sheetProblemId": "striver-search-in-a-binary-search-tree",
+      "title": "Search In A Binary Search Tree",
+      "platform": "leetcode",
+      "platformSlug": "search-in-a-binary-search-tree",
+      "platformUrl": "https://leetcode.com/problems/search-in-a-binary-search-tree/"
+    },
+    {
+      "sheetProblemId": "striver-search-in-rotated-sorted-array",
+      "title": "Search in Rotated Sorted Array",
+      "platform": "leetcode",
+      "platformSlug": "search-in-rotated-sorted-array",
+      "platformUrl": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
+      "platformProblemId": "33"
+    },
+    {
+      "sheetProblemId": "striver-search-in-rotated-sorted-array-ii",
+      "title": "Search In Rotated Sorted Array Ii",
+      "platform": "leetcode",
+      "platformSlug": "search-in-rotated-sorted-array-ii",
+      "platformUrl": "https://leetcode.com/problems/search-in-rotated-sorted-array-ii/"
+    },
+    {
+      "sheetProblemId": "striver-search-insert-position",
+      "title": "Search Insert Position",
+      "platform": "leetcode",
+      "platformSlug": "search-insert-position",
+      "platformUrl": "https://leetcode.com/problems/search-insert-position/"
+    },
+    {
+      "sheetProblemId": "striver-serialize-and-deserialize-binary-tree",
+      "title": "Serialize And Deserialize Binary Tree",
+      "platform": "leetcode",
+      "platformSlug": "serialize-and-deserialize-binary-tree",
+      "platformUrl": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/"
+    },
+    {
+      "sheetProblemId": "striver-set-matrix-zeroes",
+      "title": "Set Matrix Zeroes",
+      "platform": "leetcode",
+      "platformSlug": "set-matrix-zeroes",
+      "platformUrl": "https://leetcode.com/problems/set-matrix-zeroes/",
+      "platformProblemId": "73"
+    },
+    {
+      "sheetProblemId": "striver-shortest-common-supersequence",
+      "title": "Shortest Common Supersequence",
+      "platform": "leetcode",
+      "platformSlug": "shortest-common-supersequence",
+      "platformUrl": "https://leetcode.com/problems/shortest-common-supersequence/"
+    },
+    {
+      "sheetProblemId": "striver-shortest-path-in-binary-matrix",
+      "title": "Shortest Path In Binary Matrix",
+      "platform": "leetcode",
+      "platformSlug": "shortest-path-in-binary-matrix",
+      "platformUrl": "https://leetcode.com/problems/shortest-path-in-binary-matrix/"
+    },
+    {
+      "sheetProblemId": "striver-single-element-in-a-sorted-array",
+      "title": "Single Element In A Sorted Array",
+      "platform": "leetcode",
+      "platformSlug": "single-element-in-a-sorted-array",
+      "platformUrl": "https://leetcode.com/problems/single-element-in-a-sorted-array/"
+    },
+    {
+      "sheetProblemId": "striver-single-number",
+      "title": "Single Number",
+      "platform": "leetcode",
+      "platformSlug": "single-number",
+      "platformUrl": "https://leetcode.com/problems/single-number/"
+    },
+    {
+      "sheetProblemId": "striver-sliding-window-maximum",
+      "title": "Sliding Window Maximum",
+      "platform": "leetcode",
+      "platformSlug": "sliding-window-maximum",
+      "platformUrl": "https://leetcode.com/problems/sliding-window-maximum/"
+    },
+    {
+      "sheetProblemId": "striver-sort-characters-by-frequency",
+      "title": "Sort Characters By Frequency",
+      "platform": "leetcode",
+      "platformSlug": "sort-characters-by-frequency",
+      "platformUrl": "https://leetcode.com/problems/sort-characters-by-frequency/"
+    },
+    {
+      "sheetProblemId": "striver-sort-colors",
+      "title": "Sort Colors",
+      "platform": "leetcode",
+      "platformSlug": "sort-colors",
+      "platformUrl": "https://leetcode.com/problems/sort-colors/",
+      "platformProblemId": "75"
+    },
+    {
+      "sheetProblemId": "striver-sort-list",
+      "title": "Sort List",
+      "platform": "leetcode",
+      "platformSlug": "sort-list",
+      "platformUrl": "https://leetcode.com/problems/sort-list/"
+    },
+    {
+      "sheetProblemId": "striver-spiral-matrix",
+      "title": "Spiral Matrix",
+      "platform": "leetcode",
+      "platformSlug": "spiral-matrix",
+      "platformUrl": "https://leetcode.com/problems/spiral-matrix/"
+    },
+    {
+      "sheetProblemId": "striver-split-array-largest-sum",
+      "title": "Split Array Largest Sum",
+      "platform": "leetcode",
+      "platformSlug": "split-array-largest-sum",
+      "platformUrl": "https://leetcode.com/problems/split-array-largest-sum/"
+    },
+    {
+      "sheetProblemId": "striver-string-to-integer-atoi",
+      "title": "String To Integer Atoi",
+      "platform": "leetcode",
+      "platformSlug": "string-to-integer-atoi",
+      "platformUrl": "https://leetcode.com/problems/string-to-integer-atoi/"
+    },
+    {
+      "sheetProblemId": "striver-subarray-sum-equals-k",
+      "title": "Subarray Sum Equals K",
+      "platform": "leetcode",
+      "platformSlug": "subarray-sum-equals-k",
+      "platformUrl": "https://leetcode.com/problems/subarray-sum-equals-k/"
+    },
+    {
+      "sheetProblemId": "striver-subarrays-with-k-different-integers",
+      "title": "Subarrays With K Different Integers",
+      "platform": "leetcode",
+      "platformSlug": "subarrays-with-k-different-integers",
+      "platformUrl": "https://leetcode.com/problems/subarrays-with-k-different-integers/"
+    },
+    {
+      "sheetProblemId": "striver-subsets",
+      "title": "Subsets",
+      "platform": "leetcode",
+      "platformSlug": "subsets",
+      "platformUrl": "https://leetcode.com/problems/subsets/"
+    },
+    {
+      "sheetProblemId": "striver-subsets-ii",
+      "title": "Subsets Ii",
+      "platform": "leetcode",
+      "platformSlug": "subsets-ii",
+      "platformUrl": "https://leetcode.com/problems/subsets-ii/"
+    },
+    {
+      "sheetProblemId": "striver-sudoku-solver",
+      "title": "Sudoku Solver",
+      "platform": "leetcode",
+      "platformSlug": "sudoku-solver",
+      "platformUrl": "https://leetcode.com/problems/sudoku-solver/"
+    },
+    {
+      "sheetProblemId": "striver-sum-of-beauty-of-all-substrings",
+      "title": "Sum Of Beauty Of All Substrings",
+      "platform": "leetcode",
+      "platformSlug": "sum-of-beauty-of-all-substrings",
+      "platformUrl": "https://leetcode.com/problems/sum-of-beauty-of-all-substrings/"
+    },
+    {
+      "sheetProblemId": "striver-sum-of-subarray-minimums",
+      "title": "Sum Of Subarray Minimums",
+      "platform": "leetcode",
+      "platformSlug": "sum-of-subarray-minimums",
+      "platformUrl": "https://leetcode.com/problems/sum-of-subarray-minimums/"
+    },
+    {
+      "sheetProblemId": "striver-sum-of-subarray-ranges",
+      "title": "Sum Of Subarray Ranges",
+      "platform": "leetcode",
+      "platformSlug": "sum-of-subarray-ranges",
+      "platformUrl": "https://leetcode.com/problems/sum-of-subarray-ranges/"
+    },
+    {
+      "sheetProblemId": "striver-surrounded-regions",
+      "title": "Surrounded Regions",
+      "platform": "leetcode",
+      "platformSlug": "surrounded-regions",
+      "platformUrl": "https://leetcode.com/problems/surrounded-regions/"
+    },
+    {
+      "sheetProblemId": "striver-swim-in-rising-water",
+      "title": "Swim In Rising Water",
+      "platform": "leetcode",
+      "platformSlug": "swim-in-rising-water",
+      "platformUrl": "https://leetcode.com/problems/swim-in-rising-water/"
+    },
+    {
+      "sheetProblemId": "striver-symmetric-tree",
+      "title": "Symmetric Tree",
+      "platform": "leetcode",
+      "platformSlug": "symmetric-tree",
+      "platformUrl": "https://leetcode.com/problems/symmetric-tree/"
+    },
+    {
+      "sheetProblemId": "striver-target-sum",
+      "title": "Target Sum",
+      "platform": "leetcode",
+      "platformSlug": "target-sum",
+      "platformUrl": "https://leetcode.com/problems/target-sum/"
+    },
+    {
+      "sheetProblemId": "striver-task-scheduler",
+      "title": "Task Scheduler",
+      "platform": "leetcode",
+      "platformSlug": "task-scheduler",
+      "platformUrl": "https://leetcode.com/problems/task-scheduler/"
+    },
+    {
+      "sheetProblemId": "striver-top-k-frequent-elements",
+      "title": "Top K Frequent Elements",
+      "platform": "leetcode",
+      "platformSlug": "top-k-frequent-elements",
+      "platformUrl": "https://leetcode.com/problems/top-k-frequent-elements/"
+    },
+    {
+      "sheetProblemId": "striver-trapping-rain-water",
+      "title": "Trapping Rain Water",
+      "platform": "leetcode",
+      "platformSlug": "trapping-rain-water",
+      "platformUrl": "https://leetcode.com/problems/trapping-rain-water/",
+      "platformProblemId": "42"
+    },
+    {
+      "sheetProblemId": "striver-triangle",
+      "title": "Triangle",
+      "platform": "leetcode",
+      "platformSlug": "triangle",
+      "platformUrl": "https://leetcode.com/problems/triangle/"
+    },
+    {
+      "sheetProblemId": "striver-two-sum",
+      "title": "Two Sum",
+      "platform": "leetcode",
+      "platformSlug": "two-sum",
+      "platformUrl": "https://leetcode.com/problems/two-sum/",
+      "platformProblemId": "1"
+    },
+    {
+      "sheetProblemId": "striver-two-sum-iv-input-is-a-bst",
+      "title": "Two Sum Iv Input Is A Bst",
+      "platform": "leetcode",
+      "platformSlug": "two-sum-iv-input-is-a-bst",
+      "platformUrl": "https://leetcode.com/problems/two-sum-iv-input-is-a-bst/"
+    },
+    {
+      "sheetProblemId": "striver-unique-paths",
+      "title": "Unique Paths",
+      "platform": "leetcode",
+      "platformSlug": "unique-paths",
+      "platformUrl": "https://leetcode.com/problems/unique-paths/"
+    },
+    {
+      "sheetProblemId": "striver-unique-paths-ii",
+      "title": "Unique Paths Ii",
+      "platform": "leetcode",
+      "platformSlug": "unique-paths-ii",
+      "platformUrl": "https://leetcode.com/problems/unique-paths-ii/"
+    },
+    {
+      "sheetProblemId": "striver-valid-anagram",
+      "title": "Valid Anagram",
+      "platform": "leetcode",
+      "platformSlug": "valid-anagram",
+      "platformUrl": "https://leetcode.com/problems/valid-anagram/"
+    },
+    {
+      "sheetProblemId": "striver-valid-palindrome",
+      "title": "Valid Palindrome",
+      "platform": "leetcode",
+      "platformSlug": "valid-palindrome",
+      "platformUrl": "https://leetcode.com/problems/valid-palindrome/"
+    },
+    {
+      "sheetProblemId": "striver-valid-parentheses",
+      "title": "Valid Parentheses",
+      "platform": "leetcode",
+      "platformSlug": "valid-parentheses",
+      "platformUrl": "https://leetcode.com/problems/valid-parentheses/",
+      "platformProblemId": "20"
+    },
+    {
+      "sheetProblemId": "striver-valid-parenthesis-string",
+      "title": "Valid Parenthesis String",
+      "platform": "leetcode",
+      "platformSlug": "valid-parenthesis-string",
+      "platformUrl": "https://leetcode.com/problems/valid-parenthesis-string/"
+    },
+    {
+      "sheetProblemId": "striver-validate-binary-search-tree",
+      "title": "Validate Binary Search Tree",
+      "platform": "leetcode",
+      "platformSlug": "validate-binary-search-tree",
+      "platformUrl": "https://leetcode.com/problems/validate-binary-search-tree/"
+    },
+    {
+      "sheetProblemId": "striver-vertical-order-traversal-of-a-binary-tree",
+      "title": "Vertical Order Traversal Of A Binary Tree",
+      "platform": "leetcode",
+      "platformSlug": "vertical-order-traversal-of-a-binary-tree",
+      "platformUrl": "https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/"
+    },
+    {
+      "sheetProblemId": "striver-wildcard-matching",
+      "title": "Wildcard Matching",
+      "platform": "leetcode",
+      "platformSlug": "wildcard-matching",
+      "platformUrl": "https://leetcode.com/problems/wildcard-matching/"
+    },
+    {
+      "sheetProblemId": "striver-word-ladder",
+      "title": "Word Ladder",
+      "platform": "leetcode",
+      "platformSlug": "word-ladder",
+      "platformUrl": "https://leetcode.com/problems/word-ladder/"
+    },
+    {
+      "sheetProblemId": "striver-word-ladder-ii",
+      "title": "Word Ladder Ii",
+      "platform": "leetcode",
+      "platformSlug": "word-ladder-ii",
+      "platformUrl": "https://leetcode.com/problems/word-ladder-ii/"
+    },
+    {
+      "sheetProblemId": "striver-word-search",
+      "title": "Word Search",
+      "platform": "leetcode",
+      "platformSlug": "word-search",
+      "platformUrl": "https://leetcode.com/problems/word-search/",
+      "platformProblemId": "79"
     }
   ]
 }
