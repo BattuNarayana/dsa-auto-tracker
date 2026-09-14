@@ -3,9 +3,21 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  margin: 0;
+  width: 340px;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    sans-serif;
   color: #1a1a1a;
   background: #ffffff;
+}
+
+button,
+input {
+  font: inherit;
 }
 
 .popup {
@@ -25,7 +37,7 @@ body {
   padding: 8px 10px;
   border-radius: 8px;
   background: #f4f4f5;
-  margin-bottom: 14px;
+  margin-bottom: 16px;
 }
 
 .status-dot {
@@ -56,7 +68,13 @@ body {
   border-radius: 999px;
   border: none;
   cursor: pointer;
-  transition: background-color 0.15s ease;
+  transition:
+    background-color 0.15s ease;
+}
+
+.toggle:disabled {
+  cursor: default;
+  opacity: 0.6;
 }
 
 .toggle--on {
@@ -75,7 +93,8 @@ body {
   height: 16px;
   border-radius: 50%;
   background: white;
-  transition: transform 0.15s ease;
+  transition:
+    transform 0.15s ease;
 }
 
 .toggle--on .toggle__knob {
@@ -83,7 +102,7 @@ body {
 }
 
 .section {
-  margin-bottom: 14px;
+  margin-bottom: 16px;
 }
 
 .section__title {
@@ -92,7 +111,136 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.04em;
   color: #71717a;
-  margin: 0 0 6px 0;
+  margin: 0 0 7px 0;
+}
+
+.binding-section {
+  padding-bottom: 2px;
+}
+
+.field-label {
+  display: block;
+  font-size: 12px;
+  font-weight: 500;
+  color: #3f3f46;
+  margin: 8px 0 5px;
+}
+
+.text-input {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 7px 9px;
+  border: 1px solid #d4d4d8;
+  border-radius: 7px;
+  outline: none;
+  color: #18181b;
+  background: #ffffff;
+  font-size: 12px;
+  transition:
+    border-color 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+.text-input:focus {
+  border-color: #71717a;
+  box-shadow:
+    0 0 0 2px
+    rgba(113, 113, 122, 0.12);
+}
+
+.text-input:disabled {
+  background: #f4f4f5;
+}
+
+.binding-help {
+  font-size: 10px;
+  line-height: 1.4;
+  color: #71717a;
+  margin: 7px 0 0;
+}
+
+.binding-actions {
+  display: flex;
+  gap: 7px;
+  margin-top: 10px;
+}
+
+.primary-button,
+.secondary-button {
+  height: 32px;
+  border-radius: 7px;
+  padding: 0 11px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.primary-button {
+  flex: 1;
+  border: 1px solid #18181b;
+  background: #18181b;
+  color: #ffffff;
+}
+
+.primary-button:hover:not(:disabled) {
+  background: #27272a;
+}
+
+.secondary-button {
+  border: 1px solid #d4d4d8;
+  background: #ffffff;
+  color: #3f3f46;
+}
+
+.secondary-button:hover:not(:disabled) {
+  background: #f4f4f5;
+}
+
+.primary-button:disabled,
+.secondary-button:disabled {
+  cursor: default;
+  opacity: 0.55;
+}
+
+.binding-status {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  margin-top: 10px;
+  padding: 9px 10px;
+  border: 1px solid #bbf7d0;
+  border-radius: 7px;
+  background: #f0fdf4;
+  font-size: 11px;
+}
+
+.binding-status__icon {
+  color: #16a34a;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.binding-status strong,
+.binding-status span {
+  display: block;
+}
+
+.binding-status strong {
+  color: #166534;
+  margin-bottom: 2px;
+}
+
+.binding-status span {
+  color: #3f3f46;
+  word-break: break-word;
+}
+
+.binding-message {
+  font-size: 11px;
+  color: #71717a;
+  margin: 7px 0 0;
 }
 
 .support-row {
@@ -135,4 +283,5 @@ body {
   font-size: 12px;
   color: #a1a1aa;
   padding: 6px 0;
+  margin: 0;
 }

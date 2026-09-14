@@ -1,122 +1,297 @@
-/**
- * This is not a full test suite (see README > Manual Testing Checklist for
- * the end-to-end browser checklist that actually needs real Chrome + real
- * LeetCode + real takeuforward.org). It exercises the parts that CAN be
- * verified without a browser: the sync engine's decision logic, running for
- * real against the storage service and a mocked chrome.* API, so we know the
- * idempotency and mapping-lookup rules actually hold before this ever touches
- * a live page.
- */
 import assert from "node:assert/strict";
 
-// --- Minimal in-memory mock of the chrome APIs sync-engine.ts touches -----
-type Listener = (changes: any, area: string) => void;
+type Listener = (
+  changes: any,
+  area: string
+) => void;
 
-const localStore: Record<string, unknown> = {};
-const changeListeners: Listener[] = [];
-const sentTabMessages: Array<{ tabId: number; message: unknown }> = [];
+const localStore:
+  Record<string, unknown> = {};
+
+const changeListeners:
+  Listener[] = [];
+
+const sentTabMessages:
+  Array<{
+    tabId: number;
+    message: unknown;
+  }> = [];
 
 (globalThis as any).chrome = {
   storage: {
     local: {
       async get(key: string) {
-        return { [key]: localStore[key] };
+        return {
+          [key]: localStore[key],
+        };
       },
-      async set(obj: Record<string, unknown>) {
-        for (const [k, v] of Object.entries(obj)) {
-          const changes: Record<string, unknown> = {};
-          changes[k] = { oldValue: localStore[k], newValue: v };
-          localStore[k] = v;
-          changeListeners.forEach((l) => l(changes, "local"));
+
+      async set(
+        obj: Record<string, unknown>
+      ) {
+        for (
+          const [key, value]
+          of Object.entries(obj)
+        ) {
+          const changes:
+            Record<string, unknown> =
+              {};
+
+          changes[key] = {
+            oldValue:
+              localStore[key],
+            newValue:
+              value,
+          };
+
+          localStore[key] =
+            value;
+
+          changeListeners.forEach(
+            (listener) =>
+              listener(
+                changes,
+                "local"
+              )
+          );
         }
       },
     },
+
     onChanged: {
-      addListener(fn: Listener) {
+      addListener(
+        fn: Listener
+      ) {
         changeListeners.push(fn);
       },
     },
   },
+
   tabs: {
     async query() {
-      return []; // no open Striver tabs in this test — exercises the "no-op notify" path
+      return [];
     },
-    async sendMessage(tabId: number, message: unknown) {
-      sentTabMessages.push({ tabId, message });
+
+    async sendMessage(
+      tabId: number,
+      message: unknown
+    ) {
+      sentTabMessages.push({
+        tabId,
+        message,
+      });
     },
   },
 };
 
 async function main() {
-  const { handleAcceptedSubmission } = await import("../src/core/sync-engine");
-  const { storageService } = await import("../src/storage/storage-service");
+  const {
+    handleAcceptedSubmission,
+  } = await import(
+    "../src/core/sync-engine"
+  );
 
-  // 1. A mapped, previously-unsolved problem should be recorded.
+  const {
+    storageService,
+  } = await import(
+    "../src/storage/storage-service"
+  );
+
+  const binding = {
+    leetcodeUsername:
+      "Battu_Narayana",
+
+    striverUsername:
+      "test-striver",
+
+    boundAt: 1,
+  };
+
+  await storageService.saveAccountBinding(
+    binding
+  );
+
+  // 1. Valid mapped submission.
   await handleAcceptedSubmission({
     platform: "leetcode",
     problemSlug: "two-sum",
     timestamp: 1000,
+    leetcodeUsername:
+      "Battu_Narayana",
   });
-  let state = await storageService.getCompletionState();
-  assert.equal(Object.keys(state).length, 1, "expected exactly one completion recorded");
-  assert.ok(state["striver-two-sum"], "expected striver-two-sum to be recorded");
-  console.log("✓ mapped accepted submission is recorded");
 
-  // 2. The same problem solved again (e.g. re-submitted) must NOT duplicate
-  //    or re-notify — idempotency is the whole point of requirement #9.
+  let state =
+    await storageService
+      .getCompletionState();
+
+  assert.ok(
+    state[
+      "leetcode:battu_narayana"
+    ]
+  );
+
+  assert.ok(
+    state[
+      "leetcode:battu_narayana"
+    ][
+      "striver-two-sum"
+    ]
+  );
+
+  console.log(
+    "✓ mapped accepted submission is recorded under bound account"
+  );
+
+  // 2. Duplicate must be ignored.
   await handleAcceptedSubmission({
     platform: "leetcode",
     problemSlug: "two-sum",
     timestamp: 2000,
+    leetcodeUsername:
+      "Battu_Narayana",
   });
-  state = await storageService.getCompletionState();
-  assert.equal(Object.keys(state).length, 1, "duplicate accepted submission must not add a second entry");
+
+  state =
+    await storageService
+      .getCompletionState();
+
   assert.equal(
-    state["striver-two-sum"].completedAt,
-    1000,
-    "the original completion timestamp must not be overwritten by a duplicate"
+    state[
+      "leetcode:battu_narayana"
+    ][
+      "striver-two-sum"
+    ].completedAt,
+    1000
   );
-  console.log("✓ duplicate accepted submission is ignored (idempotent)");
 
-  // 3. A problem with no mapping in the active sheet must be silently ignored
-  //    — this is the "solve something unrelated to the sheet" case from the
-  //    product spec. No entry should appear, and nothing should throw.
-  await handleAcceptedSubmission({
-    platform: "leetcode",
-    problemSlug: "some-problem-not-on-any-sheet",
-    timestamp: 3000,
-  });
-  state = await storageService.getCompletionState();
-  assert.equal(Object.keys(state).length, 1, "unmapped problem must not create any completion entry");
-  console.log("✓ unmapped problem is ignored, not guessed at");
+  console.log(
+    "✓ duplicate accepted submission is ignored"
+  );
 
-  // 4. When the extension is disabled, nothing should be recorded even for a
-  //    mapped, valid problem.
-  await storageService.saveSettings({ enabled: false, activeSheet: "striver", debugLogging: false });
+  // 3. Different account must NOT affect bound account.
   await handleAcceptedSubmission({
     platform: "leetcode",
     problemSlug: "3sum",
-    timestamp: 4000,
+    timestamp: 3000,
+    leetcodeUsername:
+      "someOtherAccount",
   });
-  state = await storageService.getCompletionState();
-  assert.ok(!state["striver-3sum"], "disabled extension must not record completions");
-  console.log("✓ disabled extension ignores accepted submissions");
 
-  // Re-enable and confirm it resumes working normally.
-  await storageService.saveSettings({ enabled: true, activeSheet: "striver", debugLogging: false });
+  state =
+    await storageService
+      .getCompletionState();
+
+  assert.ok(
+    !state[
+      "leetcode:battu_narayana"
+    ][
+      "striver-3sum"
+    ]
+  );
+
+  console.log(
+    "✓ mismatched LeetCode account is rejected"
+  );
+
+  // 4. Unmapped problem ignored.
+  await handleAcceptedSubmission({
+    platform: "leetcode",
+    problemSlug:
+      "some-problem-not-on-any-sheet",
+    timestamp: 4000,
+    leetcodeUsername:
+      "Battu_Narayana",
+  });
+
+  state =
+    await storageService
+      .getCompletionState();
+
+  assert.equal(
+    Object.keys(
+      state[
+        "leetcode:battu_narayana"
+      ]
+    ).length,
+    1
+  );
+
+  console.log(
+    "✓ unmapped problem is ignored"
+  );
+
+  // 5. Disabled extension.
+  await storageService.saveSettings({
+    enabled: false,
+    activeSheet: "striver",
+    debugLogging: false,
+  });
+
   await handleAcceptedSubmission({
     platform: "leetcode",
     problemSlug: "3sum",
     timestamp: 5000,
+    leetcodeUsername:
+      "Battu_Narayana",
   });
-  state = await storageService.getCompletionState();
-  assert.ok(state["striver-3sum"], "re-enabled extension should record subsequent completions");
-  console.log("✓ re-enabling the extension resumes normal recording");
 
-  console.log("\nAll sync-engine smoke tests passed.\n");
+  state =
+    await storageService
+      .getCompletionState();
+
+  assert.ok(
+    !state[
+      "leetcode:battu_narayana"
+    ][
+      "striver-3sum"
+    ]
+  );
+
+  console.log(
+    "✓ disabled extension ignores submissions"
+  );
+
+  // 6. Re-enable.
+  await storageService.saveSettings({
+    enabled: true,
+    activeSheet: "striver",
+    debugLogging: false,
+  });
+
+  await handleAcceptedSubmission({
+    platform: "leetcode",
+    problemSlug: "3sum",
+    timestamp: 6000,
+    leetcodeUsername:
+      "Battu_Narayana",
+  });
+
+  state =
+    await storageService
+      .getCompletionState();
+
+  assert.ok(
+    state[
+      "leetcode:battu_narayana"
+    ][
+      "striver-3sum"
+    ]
+  );
+
+  console.log(
+    "✓ re-enabling resumes normal recording"
+  );
+
+  console.log(
+    "\nAll account-isolation smoke tests passed.\n"
+  );
 }
 
 main().catch((err) => {
-  console.error("Smoke test failed:", err);
+  console.error(
+    "Smoke test failed:",
+    err
+  );
+
   process.exit(1);
 });

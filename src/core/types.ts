@@ -1,38 +1,37 @@
 /**
- * Core domain types. Every other module (background, content scripts, popup,
- * storage) imports from here so the shape of a "problem", "submission" and
- * "settings" is defined in exactly one place.
+ * Core domain types.
  */
 
-/** Coding platforms the extension can detect submissions on. MVP: only LeetCode. */
 export type Platform = "leetcode";
 
-/** DSA sheets the extension can mark completion on. MVP: only Striver's A2Z sheet. */
 export type SheetId = "striver";
 
-/** Result of a LeetCode (or future platform) submission, as detected on-page. */
 export type SubmissionStatus = "accepted" | "rejected" | "unknown";
 
 export interface SubmissionResult {
   platform: Platform;
-  /** Stable platform identifier for the problem, e.g. LeetCode's URL slug ("two-sum"). */
   problemSlug: string;
   status: SubmissionStatus;
   timestamp: number;
 }
 
 /**
- * One entry in a sheet's static mapping dataset (e.g. data/striver.json).
- * This is the single source of truth linking a sheet's problem to a platform's
- * problem. Identity is by platform slug/id, never by title or topic.
+ * User-selected pairing between a LeetCode account and a Striver account.
+ *
+ * The LeetCode username is used for runtime authorization.
+ * The Striver username currently acts as the paired-account label.
  */
+export interface AccountBinding {
+  leetcodeUsername: string;
+  striverUsername: string;
+  boundAt: number;
+}
+
 export interface SheetProblemMapping {
   sheetProblemId: string;
   title: string;
   platform: Platform;
-  /** Numeric/string problem id on the platform, when reliably known. Informational only. */
   platformProblemId?: string;
-  /** The stable, canonical identifier we actually match against at runtime. */
   platformSlug: string;
   platformUrl: string;
 }
@@ -42,11 +41,9 @@ export interface SheetDataset {
   problems: SheetProblemMapping[];
 }
 
-/** A problem row as discovered live in the sheet's DOM (not the static mapping). */
 export interface SheetPageProblem {
   platformSlug: string;
   platformUrl: string;
-  /** Best-effort title read from the DOM, for logging/debugging only. */
   titleGuess: string;
   rowElement: Element;
 }
@@ -63,11 +60,41 @@ export interface CompletionRecord {
   platform: Platform;
   problemSlug: string;
   completedAt: number;
+
+  /**
+   * LeetCode account that produced this completion.
+   */
+  leetcodeUsername: string;
 }
 
-/** Keyed by sheetProblemId. This is the extension's own record of what it has
- * marked done — the source of truth it reconciles the sheet's DOM against. */
-export type CompletionState = Record<string, CompletionRecord>;
+/**
+ * Completion history belonging to ONE LeetCode account.
+ */
+export type AccountCompletionState = Record<
+  string,
+  CompletionRecord
+>;
+
+/**
+ * Account-scoped completion history.
+ *
+ * Example:
+ *
+ * {
+ *   "leetcode:battu_narayana": {
+ *     "striver-two-sum": {...},
+ *     "striver-binary-search": {...}
+ *   },
+ *
+ *   "leetcode:other_account": {
+ *     "striver-two-sum": {...}
+ *   }
+ * }
+ */
+export type CompletionState = Record<
+  string,
+  AccountCompletionState
+>;
 
 export const DEFAULT_SETTINGS: ExtensionSettings = {
   enabled: true,

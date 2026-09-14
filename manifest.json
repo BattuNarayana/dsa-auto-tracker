@@ -24,7 +24,7 @@
   "host_permissions": ["https://leetcode.com/*", "https://takeuforward.org/*"],
   "content_scripts": [
     {
-      "matches": ["https://leetcode.com/problems/*"],
+      "matches": ["https://leetcode.com/*"],
       "js": ["content-leetcode.js"],
       "run_at": "document_idle"
     },
